@@ -24,4 +24,4 @@ One of the main motivations for studying ULAs is their potential impact on the s
 
 Search for the effects of ULAs on astrophysical phenomena has been an ongoing effort for years. Since the presence of ULAs affects the large-scale structure of galaxies, constraints can be put on the cosmological abundance of ULAs. In addition, the polarization of the cosmic microwave background radiation (CMB) is sensitive to ULAs and is being searched for by experiments like the Polarization of Background Radiation (POLARBEAR) experiment.
 
-![Constraints](/tibordome.github.io/assets/MassConstraints.pdf)
+![Constraints](/tibordome.github.io/assets/images/MassConstraints.pdf)
