@@ -28,3 +28,14 @@ Search for the effects of ULAs on astrophysical phenomena has been an ongoing ef
 Experimental observations provide increasingly stringent bounds on the admissible mass ranges of FDM, see [Dome et al 2022](https://arxiv.org/pdf/2208.03827.pdf). In that work, we provide a non-exhaustive list of recent constraints ordered by publication date, which we also show below:
 
 ![Constraints](/assets/images/MassConstraints.pdf)
+
+While the density profiles in the central regions of dwarf spheroidals can be explained with a FDM soliton core potential provided that 
+$m_a \le 1.1 \times 10^{-22}$ eV [Marsh & Pop 2015](https://arxiv.org/abs/1502.03456), Ly-α observations find a lower bound $m_a \ge 3.8 \times 10^{-21}$ eV to have enough power on Mpc-scales 
+in the Ly-α forest [Irsic et al 2017](https://arxiv.org/abs/1703.04683), constituting a Catch-22 problem. 
+Recently, [Safarzadeh & Spergel 2020](https://arxiv.org/abs/1906.11848) showed that a pure FDM cosmology is inconsistent with dwarf spheroidals across the
+entire parameter space by at least 3σ. More sophisticated models of
+reionisation are needed though to make some of these observational
+constraints more reliable: For instance, most forest analyses assume
+that the frequency-averaged amplitude of the ionising background J
+in the neutral hydrogen density $n_{\text{HI}} \propto (1+\delta b)^2/(T^{0.7}J)$ has negligible
+spatial fluctuations [Hui et al. 2017](https://arxiv.org/abs/1610.08297). Some FDM constraints might also be biased due to poor star formation modelling.
