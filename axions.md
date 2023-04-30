@@ -27,7 +27,7 @@ Search for the effects of ULAs on astrophysical phenomena has been an ongoing ef
 # Constraints
 Experimental observations provide increasingly stringent bounds on the admissible mass ranges of FDM, see [Dome et al 2022](https://arxiv.org/pdf/2208.03827.pdf). In that work, we provide a non-exhaustive list of recent constraints ordered by publication date, which we also show below:
 
-![Constraints](/assets/images/MassConstraints.pdf)
+![Constraints](/assets/images/MassConstraints.png)
 
 While the density profiles in the central regions of dwarf spheroidals can be explained with a FDM soliton core potential provided that 
 $m_a \le 1.1 \times 10^{-22}$ eV [Marsh & Pop 2015](https://arxiv.org/abs/1502.03456), Ly-α observations find a lower bound $m_a \ge 3.8 \times 10^{-21}$ eV to have enough power on Mpc-scales 
