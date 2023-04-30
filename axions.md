@@ -1,6 +1,6 @@
 ---
 layout: default
-title: QCD Axions
+title: Axions
 katex: True
 ---
 
