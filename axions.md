@@ -23,3 +23,5 @@ Another cold dark matter candidate are ultra-light axions (ULAs). ULAs are a cla
 One of the main motivations for studying ULAs is their potential impact on the structure of galaxies. Because their wavelength is comparable to the size of small galaxies, ULAs could exhibit wave-like behavior, forming a Bose-Einstein condensate (BEC) that would affect the distribution of matter in galaxies. This could potentially solve some of the outstanding problems in our understanding of galactic structure, such as the "cusp-core" problem and the "too big to fail" problem.
 
 Search for the effects of ULAs on astrophysical phenomena has been an ongoing effort for years. Since the presence of ULAs affects the large-scale structure of galaxies, constraints can be put on the cosmological abundance of ULAs. In addition, the polarization of the cosmic microwave background radiation (CMB) is sensitive to ULAs and is being searched for by experiments like the Polarization of Background Radiation (POLARBEAR) experiment.
+
+![Constraints](/tibordome.github.io/assets/MassConstraints.pdf)
