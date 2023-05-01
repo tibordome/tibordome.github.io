@@ -69,4 +69,4 @@ primordial density fluctuations in the early Universe, one finds that different 
 large scales (including halo scales) is most manifest in an effective small-scale cutoff of the primordial density fluctuations, i.e. affecting 
 small-scale modes, FDM imprints at high-$z$ are especially pronounced.
 
-In [Dome et al 2022], we quantify FDM imprints on the internal properties of halos by analysing a suite of $N$-body simulations, run for both CDM and multiple FDM models.
+In [Dome et al 2022](https://arxiv.org/pdf/2208.03827.pdf), we quantify FDM imprints on the internal properties of halos by analysing a suite of $N$-body simulations, run for both CDM and multiple FDM models.
