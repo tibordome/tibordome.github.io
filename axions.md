@@ -41,7 +41,11 @@ Background Radiation (POLARBEAR) experiment.
 # Constraints
 Experimental observations provide increasingly stringent bounds on the admissible mass ranges of FDM, see [Dome et al 2022](https://arxiv.org/pdf/2208.03827.pdf). In that work, we provide a non-exhaustive list of recent constraints ordered by publication date, which we also show below:
 
-![Constraints](/assets/images/MassConstraints.png)
+| ![Constraints](/assets/images/MassConstraints.png) | 
+|:--:| 
+| *Recent particle mass constraints for warm dark matter (WDM) / FDM from astrophysical observations in the FDM window of $$10^{-26}$$ eV $$<m<10^{-16}$$ eV. 
+The red shading indicates a disfavored parameter space, though not necessarily a $$2\sigma$$-constraint. The orange shading indicates forecasts for future observatories.
+UFDs = ultra-faint dwarf galaxies; SMBHs = supermassive black holes.* |
 
 While the density profiles in the central regions of dwarf spheroidals can be explained with a FDM soliton core potential provided that 
 $$m_a \le 1.1 \times 10^{-22}$$ eV [(Marsh & Pop 2015)](https://arxiv.org/abs/1502.03456), Ly-α observations find a lower 
@@ -70,3 +74,67 @@ large scales (including halo scales) is most manifest in an effective small-scal
 small-scale modes, FDM imprints at high-$$z$$ are especially pronounced.
 
 In [Dome et al 2022](https://arxiv.org/pdf/2208.03827.pdf), we quantify FDM imprints on the internal properties of halos by analysing a suite of $$N$$-body simulations, run for both CDM and multiple FDM models.
+
+## Halo Density profiles
+
+Halo density profiles are well approximated by the Einasto 
+profile [(Einasto 1965)](https://ui.adsabs.harvard.edu/abs/1965TrAlm...5...87E/abstract),
+
+$$\ln\left(\frac{\rho_E(r)}{\rho_{-2}}\right) = -\frac{2}{\alpha}\left[\left(\frac{r}{r_{-2}}\right)^{\alpha}-1\right].$$
+
+which has three parameters: $$\alpha$$, the characteristic or scale radius $$r_s \equiv r_{-2}$$ at which the logarithmic slope has the 
+isothermal value of $$-2$$, i.e. $$\mathrm{d} \ln{\rho} / \mathrm{d} \ln r|_{r_{-2}} = -2$$, and the density at the scale radius $$\rho_{-2}$$.
+
+A useful quantity to keep in mind is the concentration of halos, defined as 
+
+$$c \coloneqq \frac{R_{200}}{r_{-2}},$$
+
+i.e. the ratio of $$R_{200}$$ to that of the scale radius $$r_{-2}$$. As discussed by NFW for the case of CDM, 
+$$c$$ and $$M_{200}$$ do not take on arbitrary values, but correlate in a way that reflects the mass-dependence of halo formation 
+times [(Bullock et al 2001)](https://ui.adsabs.harvard.edu/abs/2001MNRAS.321..559B/abstract). Earlier 
+assembly corresponds to higher characteristic densities, reflecting the larger background density at that epoch. As a consequence,
+the $$c-M_{200}$$ relation, shown below
+
+| ![cM-relation](/assets/images/cVersusM.png) | 
+|:--:| 
+| *Concentration-mass relation $$c(M,z)$$ in different cosmologies, for $$N$$-body, $$1024^3$$ resolution, 
+$$L_{\text{box}} = 40$$ cMpc$$/h$$ runs at redshift $$z=4.38$$. We compare the CDM halos (blue) with cFDM halos for particle mass $$m=2\times 10^{-21}$$ eV (top), 
+$$m=7\times 10^{-22}$$ eV (middle) and $$m=10^{-22}$$ eV (bottom). Square markers indicate median concentrations obtained from Einasto best-fits while the color of 
+each hexbin is proportional to the number of halos whose Einasto concentration falls therein. "LB 16, CDM" and "LB 16, cFDM" show an analytical model prediction 
+from [Ludlow et al 2016](https://arxiv.org/abs/1601.02624) for model parameters $$f=0.02$$ and $$C=650$$.* |
+
+[Ludlow 2014](https://academic.oup.com/mnras/article/441/1/378/977251) later showed that the concentration of a CDM halo can be inferred 
+from the critical density of the Universe at a characteristic time along its mass accretion history. The insight was used to construct an 
+analytic model for the mass-concentration-redshift relation $$c(M,z)$$ for CDM halos, reproducing the inferred relation from many CDM 
+simulations. In [Ludlow et al 2016](https://arxiv.org/abs/1601.02624), the generalisation of the model has been introduced and applied to 
+WDM, relying on the full "collapsed mass history" of a halo instead of its main progenitor. As such, the model is based on extended 
+Press-Schechter theory, allowing to assess the dependence of halo concentrations on cosmological parameters and on the shape of the 
+linear matter power spectrum alike. It is this model whose validity for cFDM and high redshifts we would like to comment on.
+
+The above Fig. shows parts of the $$c(M,z)$$ relation as inferred from the $$N$$-body, $$1024^3$$ resolution, $$L_{\text{box}} = 40$$ cMpc$$/h$$ runs 
+at redshift $$z=4.38$$. Square markers indicate concentrations as obtained from Einasto best-fits in the respective mass bin, while the color of 
+each hexbin is proportional to the number of halos whose concentration falls therein. The solid blue curve labelled "LB 16, CDM" is a broken power-law 
+fitting formula for $$c(M,z)$$ in the Planck cosmology from [Ludlow et al 2016](https://arxiv.org/abs/1601.02624) (Eq. C1). At fixed redshift $$z$$, 
+the concentrations of CDM halos decrease monotonically with increasing halo mass, reflecting the lower background density at the epoch of their 
+formation. At fixed mass, concentrations $$c$$ decrease monotonically with increasing redshift (not shown), indicative of the redshift evolution 
+of the reference density, also called the *pseudo-evolution* of mass [(Diemer et al 2013)](https://ui.adsabs.harvard.edu/abs/2013ApJ...766...25D/abstract).
+
+For cFDM, the concentration-mass relation is non-monotonic. In solid red labelled "LB 16, cFDM", we add the model prediction from 
+[Ludlow et al 2016](https://arxiv.org/abs/1601.02624). To maintain consistency, as input to the model we use linear FDM matter power spectra obtained with 
+*AxionCamb* rather than the [Viel et al 2005](https://arxiv.org/abs/astro-ph/0501562) parametrisation suitable for WDM. The model parameter $$f$$ that is used to define the halo collapse redshift is 
+set to $$f = 0.02$$ while the proportionality factor $$C$$ relating mean inner halo densities to the critical density of the Universe at 
+the collapse redshift is set to $$C = 650$$. We find that their model slightly overpredicts the cFDM concentrations at the small-mass end, 
+while performing better for higher masses. At given $$z$$, concentrations peak at around two orders of magnitude above the half-mode mass 
+scale $$M_{1/2}$$, with concentrations declining above and below this *peak mass scale* $$M_{\text{peak}} \sim 100 \times M_{1/2}$$. This is a 
+known result which has also been described by e.g. [Bose et al 2015](https://arxiv.org/abs/1507.01998). However, both the latter work and that of 
+[Ludlow et al 2016](https://arxiv.org/abs/1601.02624) focus on WDM simulations at low redshifts of $$z\leq 3$$ and equivalent cFDM 
+particle masses of $$3.3\times 10^{-21}$$ eV and $$4.5\times 10^{-22}$$ eV. We extend the result to cFDM of lower particle mass 
+of $$m = 10^{-22}$$ eV and to redshifts in the range $$3.4 \leq z \leq 6.3$$, beyond which 
+our halo catalogues become too sparse and noisy to make statistically robust conclusions. We concede that for the $$m = 1 \times 10^{-22}$$ eV 
+run (lower panel), our lack of high-mass halos makes the extrapolation towards $$M_{\text{peak}}$$ only tentative.\par
+
+As in WDM, the non-monotonicity of $$c(M,z)$$ is due to the suppression of gravitational collapse below the half-mode scale, 
+breaking the scale-invariance of the assembly process. It imprints a preferred scale on the mass accretion histories. 
+While [Ludlow et al 2016](https://arxiv.org/abs/1601.02624) apply their model of the $$c(M,z)$$ relation to WDM, here we show 
+that it also fares well for cFDM simulations with initial conditions based on *AxionCamb}*, reproducing the non-monotonicity 
+and even the constancy of $$M_{\text{peak}}$$ with cosmic time.\par 
