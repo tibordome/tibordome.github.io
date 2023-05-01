@@ -94,7 +94,7 @@ times [(Bullock et al 2001)](https://ui.adsabs.harvard.edu/abs/2001MNRAS.321..55
 assembly corresponds to higher characteristic densities, reflecting the larger background density at that epoch. The $$c-M_{200}$$ relation
 is shown below.
 
-| <img src="/assets/images/cVersusM.png" width="400" height="900"> | 
+| <img src="/assets/images/cVersusM.png" width="400" height="850"> | 
 |:--:| 
 | *Fig. 2: Concentration-mass relation $$c(M,z)$$ in different cosmologies, for $$N$$-body, $$1024^3$$ resolution, $$L_{\text{box}} = 40$$ cMpc$$/h$$ runs at redshift $$z=4.38$$. We compare the CDM halos (blue) with cFDM halos for particle mass $$m=2\times 10^{-21}$$ eV (top), $$m=7\times 10^{-22}$$ eV (middle) and $$m=10^{-22}$$ eV (bottom). Square markers indicate median concentrations obtained from Einasto best-fits while the color of each hexbin is proportional to the number of halos whose Einasto concentration falls therein. "LB 16, CDM" and "LB 16, cFDM" show an analytical model prediction from [Ludlow et al 2016](https://arxiv.org/abs/1601.02624) for model parameters $$f=0.02$$ and $$C=650$$.* |
 
@@ -131,5 +131,5 @@ run (lower panel), our lack of high-mass halos makes the extrapolation towards $
 As in WDM, the non-monotonicity of $$c(M,z)$$ is due to the suppression of gravitational collapse below the half-mode scale, 
 breaking the scale-invariance of the assembly process. It imprints a preferred scale on the mass accretion histories. 
 While [Ludlow et al 2016](https://arxiv.org/abs/1601.02624) apply their model of the $$c(M,z)$$ relation to WDM, here we show 
-that it also fares well for cFDM simulations with initial conditions based on *AxionCamb}*, reproducing the non-monotonicity 
+that it also fares well for cFDM simulations with initial conditions based on *AxionCamb*, reproducing the non-monotonicity 
 and even the constancy of $$M_{\text{peak}}$$ with cosmic time.
