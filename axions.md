@@ -87,9 +87,10 @@ isothermal value of $$-2$$, i.e. $$\mathrm{d} \ln{\rho} / \mathrm{d} \ln r|_{r_{
 
 A useful quantity to keep in mind is the concentration of halos, defined as 
 
-$$c \coloneqq \frac{R_{200}}{r_{-2}},$$
+$$c = \frac{R_{200}}{r_{-2}},$$
 
-i.e. the ratio of $$R_{200}$$ to that of the scale radius $$r_{-2}$$. As discussed by NFW for the case of CDM, 
+i.e. the ratio of $$R_{200}$$ to that of the scale radius $$r_{-2}$$. As discussed by NFW 
+[(Navarro et al 1996)](https://ui.adsabs.harvard.edu/abs/1996ApJ...462..563N/abstract)for the case of CDM, 
 $$c$$ and $$M_{200}$$ do not take on arbitrary values, but correlate in a way that reflects the mass-dependence of halo formation 
 times [(Bullock et al 2001)](https://ui.adsabs.harvard.edu/abs/2001MNRAS.321..559B/abstract). Earlier 
 assembly corresponds to higher characteristic densities, reflecting the larger background density at that epoch. As a consequence,
@@ -131,10 +132,15 @@ known result which has also been described by e.g. [Bose et al 2015](https://arx
 particle masses of $$3.3\times 10^{-21}$$ eV and $$4.5\times 10^{-22}$$ eV. We extend the result to cFDM of lower particle mass 
 of $$m = 10^{-22}$$ eV and to redshifts in the range $$3.4 \leq z \leq 6.3$$, beyond which 
 our halo catalogues become too sparse and noisy to make statistically robust conclusions. We concede that for the $$m = 1 \times 10^{-22}$$ eV 
-run (lower panel), our lack of high-mass halos makes the extrapolation towards $$M_{\text{peak}}$$ only tentative.\par
+run (lower panel), our lack of high-mass halos makes the extrapolation towards $$M_{\text{peak}}$$ only tentative.
 
 As in WDM, the non-monotonicity of $$c(M,z)$$ is due to the suppression of gravitational collapse below the half-mode scale, 
 breaking the scale-invariance of the assembly process. It imprints a preferred scale on the mass accretion histories. 
 While [Ludlow et al 2016](https://arxiv.org/abs/1601.02624) apply their model of the $$c(M,z)$$ relation to WDM, here we show 
 that it also fares well for cFDM simulations with initial conditions based on *AxionCamb}*, reproducing the non-monotonicity 
-and even the constancy of $$M_{\text{peak}}$$ with cosmic time.\par 
+and even the constancy of $$M_{\text{peak}}$$ with cosmic time.
+
+| Syntax      | Description | Test Text     |
+| :---        |    :----:   |          ---: |
+| Header      | Title       | Here's this   |
+| Paragraph   | Text        | And more      |
