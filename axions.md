@@ -43,9 +43,7 @@ Experimental observations provide increasingly stringent bounds on the admissibl
 
 | ![Constraints](/assets/images/MassConstraints.png) | 
 |:--:| 
-| *Recent particle mass constraints for warm dark matter (WDM) / FDM from astrophysical observations in the FDM window of $$10^{-26}$$ eV $$<m<10^{-16}$$ eV. 
-The red shading indicates a disfavored parameter space, though not necessarily a $$2\sigma$$-constraint. The orange shading indicates forecasts for future observatories.
-UFDs = ultra-faint dwarf galaxies; SMBHs = supermassive black holes.* |
+| *Recent particle mass constraints for warm dark matter (WDM) / FDM from astrophysical observations in the FDM window of $$10^{-26}$$ eV $$<m<10^{-16}$$ eV. The red shading indicates a disfavored parameter space, though not necessarily a $$2\sigma$$-constraint. The orange shading indicates forecasts for future observatories. UFDs = ultra-faint dwarf galaxies; SMBHs = supermassive black holes.* |
 
 While the density profiles in the central regions of dwarf spheroidals can be explained with a FDM soliton core potential provided that 
 $$m_a \le 1.1 \times 10^{-22}$$ eV [(Marsh & Pop 2015)](https://arxiv.org/abs/1502.03456), Ly-α observations find a lower 
@@ -98,11 +96,7 @@ the $$c-M_{200}$$ relation, shown below
 
 | ![cM-relation](/assets/images/cVersusM.png) | 
 |:--:| 
-| *Concentration-mass relation $$c(M,z)$$ in different cosmologies, for $$N$$-body, $$1024^3$$ resolution, 
-$$L_{\text{box}} = 40$$ cMpc$$/h$$ runs at redshift $$z=4.38$$. We compare the CDM halos (blue) with cFDM halos for particle mass $$m=2\times 10^{-21}$$ eV (top), 
-$$m=7\times 10^{-22}$$ eV (middle) and $$m=10^{-22}$$ eV (bottom). Square markers indicate median concentrations obtained from Einasto best-fits while the color of 
-each hexbin is proportional to the number of halos whose Einasto concentration falls therein. "LB 16, CDM" and "LB 16, cFDM" show an analytical model prediction 
-from [Ludlow et al 2016](https://arxiv.org/abs/1601.02624) for model parameters $$f=0.02$$ and $$C=650$$.* |
+| *Concentration-mass relation $$c(M,z)$$ in different cosmologies, for $$N$$-body, $$1024^3$$ resolution, $$L_{\text{box}} = 40$$ cMpc$$/h$$ runs at redshift $$z=4.38$$. We compare the CDM halos (blue) with cFDM halos for particle mass $$m=2\times 10^{-21}$$ eV (top), $$m=7\times 10^{-22}$$ eV (middle) and $$m=10^{-22}$$ eV (bottom). Square markers indicate median concentrations obtained from Einasto best-fits while the color of each hexbin is proportional to the number of halos whose Einasto concentration falls therein. "LB 16, CDM" and "LB 16, cFDM" show an analytical model prediction from [Ludlow et al 2016](https://arxiv.org/abs/1601.02624) for model parameters $$f=0.02$$ and $$C=650$$.* |
 
 [Ludlow 2014](https://academic.oup.com/mnras/article/441/1/378/977251) later showed that the concentration of a CDM halo can be inferred 
 from the critical density of the Universe at a characteristic time along its mass accretion history. The insight was used to construct an 
