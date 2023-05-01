@@ -94,7 +94,7 @@ times [(Bullock et al 2001)](https://ui.adsabs.harvard.edu/abs/2001MNRAS.321..55
 assembly corresponds to higher characteristic densities, reflecting the larger background density at that epoch. The $$c-M_{200}$$ relation
 is shown below.
 
-| <img src="/assets/images/cVersusM.png" width="400" height="1200"> | 
+| <img src="/assets/images/cVersusM.png" width="400" height="900"> | 
 |:--:| 
 | *Fig. 2: Concentration-mass relation $$c(M,z)$$ in different cosmologies, for $$N$$-body, $$1024^3$$ resolution, $$L_{\text{box}} = 40$$ cMpc$$/h$$ runs at redshift $$z=4.38$$. We compare the CDM halos (blue) with cFDM halos for particle mass $$m=2\times 10^{-21}$$ eV (top), $$m=7\times 10^{-22}$$ eV (middle) and $$m=10^{-22}$$ eV (bottom). Square markers indicate median concentrations obtained from Einasto best-fits while the color of each hexbin is proportional to the number of halos whose Einasto concentration falls therein. "LB 16, CDM" and "LB 16, cFDM" show an analytical model prediction from [Ludlow et al 2016](https://arxiv.org/abs/1601.02624) for model parameters $$f=0.02$$ and $$C=650$$.* |
 
