@@ -39,7 +39,8 @@ the cosmic microwave background radiation (CMB) is sensitive to ULAs and is bein
 Background Radiation (POLARBEAR) experiment.
 
 # Constraints
-Experimental observations provide increasingly stringent bounds on the admissible mass ranges of FDM, see [Dome et al 2022](https://arxiv.org/pdf/2208.03827.pdf). In that work, we provide a non-exhaustive list of recent constraints ordered by publication date, which we also show below:
+Experimental observations provide increasingly stringent bounds on the admissible mass ranges of FDM, see [Dome et al 2022](https://academic.oup.com/mnras/article/519/3/4183/6961063). 
+In that work, we provide a non-exhaustive list of recent constraints ordered by publication date, which we also show below:
 
 | ![Constraints](/assets/images/MassConstraints.png) | 
 |:--:| 
@@ -71,7 +72,8 @@ primordial density fluctuations in the early Universe, one finds that different 
 large scales (including halo scales) is most manifest in an effective small-scale cutoff of the primordial density fluctuations, i.e. affecting 
 small-scale modes, FDM imprints at high-$$z$$ are especially pronounced.
 
-In [Dome et al 2022](https://arxiv.org/pdf/2208.03827.pdf), we quantify FDM imprints on the internal properties of halos by analysing a suite of $$N$$-body simulations, run for both CDM and multiple FDM models.
+In [Dome et al 2022](https://academic.oup.com/mnras/article/519/3/4183/6961063), we quantify FDM imprints on the internal properties of halos 
+by analysing a suite of $$N$$-body simulations, run for both CDM and multiple FDM models.
 
 ## Halo Density profiles
 
@@ -133,7 +135,7 @@ While [Ludlow et al 2016](https://arxiv.org/abs/1601.02624) apply their model of
 that it also fares well for cFDM simulations with initial conditions based on *AxionCamb*, reproducing the non-monotonicity 
 and even the constancy of $$M_{\text{peak}}$$ with cosmic time.
 
-## Halo Alignments
+## Geometric Halo Alignments
 
 The reason why intrinsic alignments have gained considerable attention in recent years is twofold. First, the next generation of 
 galaxy weak lensing surveys such as the [Euclid](http://www.euclid-ec.org/) mission will suffer from 
@@ -163,3 +165,50 @@ separations of $$10$$ cMpc/$$h$$, where $$|\cos \theta| \sim 0.54$$. Upon inspec
 marginalising over 3D pair separations, we find that the Kolmogorov-Smirnov $$p$$-value, $$p_{\text{KS}}$$, for rejecting the hypothesis 
 that the cFDM and CDM signals are drawn from the same distribution is very low. In other words, the hypothesis can be ruled out with 
 very high significance. As expected, $$p_{\text{KS}}$$ increases with $$m$$.
+
+## Intrinsic Alignments
+
+While the linear alignment model (LAM) introduced in [Hirata et al 2004](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.70.063526) 
+and [Catelan et al 2001](https://academic.oup.com/mnras/article/320/1/L7/1111584) is traditionally applied to elliptical 
+galaxies, the condition of a virialised, velocity dispersion-stabilised system is also satisfied by halos. To keep our focus on the 
+properties of the cosmic web and to harness greater statistical power, we investigate intrinsic alignment correlations of halos 
+within the LAM. In this model, the halo is assumed to be spherically symmetric in isolation, in a steady-state Jeans equilibrium,
+perturbed by the presence of a cosmic tidal field. Taylor-expanding the anisotropic large-scale gravitational 
+potential $$\Phi(\mathbf{r})$$ to second order around the centre of mass of the halo and assuming that the intrinsic ellipticity $$\epsilon$$ can 
+be modelled by a random variable with zero mean and some amount of dispersion, one arrives at
+
+$$\epsilon = \epsilon_{+} + i\epsilon_{\times} = -D(T_{+} + iT_{\times}),$$
+
+i.e. a linear relationship between the local tidal field components $$T_{+}$$ and $$T_{\times}$$ and the complex ellipticity in projection 
+along the Cartesian $$z$$-axis, $$\epsilon$$.
+
+To obtain $$D$$ for our simulation samples, we first compute the discrete version of the ellipticity for each halo, see [Dome et al 2022](https://academic.oup.com/mnras/article/519/3/4183/6961063).
+Next, we calculate the local gravitational tidal field 
+
+$$\frac{\Phi_{,ij}}{c^2}(\mathbf{x}) = \frac{\partial^2\Phi(\mathbf{x})}{c^2\partial x_i\partial x_j}$$
+
+at the centre of mass of each halo. This can be achieved by first determining the three-dimensional overdensity field $$\delta(\mathbf{x})$$ 
+for the full simulation volume using a CIC interpolation. We can then use a discrete Fourier transform to solve Poisson's equation 
+and obtain the Hessian of the potential algebraically in Fourier space via
+
+$$\frac{\Phi_{,ij}}{c^2}(\mathbf{x}) = \frac{3\Omega_m}{2\chi_H^2a}\mathcal{F}^{-1}\left[ \frac{k_ik_j}{|\mathbf{k}|^2} \exp\left(-\frac{1}{2}|\mathbf{k}|^2\lambda^2\right)\mathcal{F}[\delta(\mathbf{x})]\right],$$
+
+where $$\mathbf{k}$$ is the comoving wave vector, $$\chi_H \coloneqq \frac{c}{H_0}$$ is the Hubble-distance and $$a$$ the cosmic scale factor. 
+There is a non-removable uncertainty on the scale the effective tidal field relevant for LAM should be evaluated on. Here, we consider a Gaussian smoothing 
+scale of $$\lambda =$$ 1 cMpc/$$h$$. This scale corresponds to halos of mass $$M = 4\pi/3 \Omega_m \rho_{\mathrm{crit}} \lambda^3 \sim 10^{11} \ M_{\odot}/h$$. Finally, 
+to obtain the tidal shear at the halo positions, we perform an inverse CIC interpolation, effectively increasing the smoothing scale $$\lambda$$ 
+by about one grid cell.
+
+| ![IA](/assets/images/Dfitting_032.png) | 
+|:--:| 
+| * Fig. 4: Intrinsic alignment strengths in different cosmologies. We show the correlation of the two components of the halo ellipticity $$\epsilon_{+}$$, $$\epsilon_{\times}$$ with the respective tidal field components $$T_{+}$$, $$T_{\times}$$, for $$N$$-body, $$1024^3$$ resolution, $$L_{\text{box}} = 40$$ cMpc$$/h$$ runs at redshift $$z=4.38$$. Each dot represents one halo colour-coded by its triaxiality $$T$$. The blue dashed lines correspond to a linear fit to the binned data points, the shaded bands displaying the standard error on the mean (SEM) in each bin. The blue (CDM) and red solid lines (cFDM) depict the fits to the anisotropy-corrected data. All values are in units of $$c^2(\mathrm{{cMpc}}/h)^2$$.* |
+
+In Fig. 4, we present some selected best-fit results for the alignment parameter $$D$$. We quote isotropised values $D_{\text{iso}}$ rather than the raw $$D$$ values.
+As we decrease the cFDM particle mass $$m$$, one noticeable change in Fig. 4 comes from the higher average in the triaxiality $$T$$ of halos.
+By the same token, the distributions of both the real and the imaginary part of the ellipticity $$\epsilon_{\times}$$ exhibit more 
+outliers / heavier tails at larger absolute values than for CDM. This is expected, since prolate halos tend to 
+look - on average - prolate in projection as well. This circumstance together with the distribution of local tidal field values $$T_{+}$$, $$T_{\times}$$, 
+conspire to a strong dependence of the alignment strength on the cFDM particle mass $$m$$. The smaller $$m$$ and thus the smaller the half-mode 
+scale $$k_{1/2}$$, the more $$D_{\text{iso}}$$ grows. The fractional difference in $$D_{\text{iso}}$$ between the most extreme cFDM model 
+with $$m=10^{-22}$$ eV and CDM is as high as $$0.45 \pm 0.19$$ at $$z=10.9$$. At $$z=4.38$$, the fractional difference reads $$0.51\pm 0.08$$, 
+which is different from zero at a level of about $$6.4 \sigma$$.
