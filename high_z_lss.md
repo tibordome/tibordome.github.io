@@ -42,7 +42,7 @@ is shown below.
 
 | <img src="/assets/images/cVersusM.png" width="400" height="850"> |
 |:--:| 
-| *Fig. 2: Concentration-mass relation $$c(M,z)$$ in different cosmologies, for $$N$$-body, $$1024^3$$ resolution, $$L_{\text{box}} = 40$$ cMpc$$/h$$ runs at redshift $$z=4.38$$. We compare the CDM halos (blue) with cFDM halos for particle mass $$m=2\times 10^{-21}$$ eV (top), $$m=7\times 10^{-22}$$ eV (middle) and $$m=10^{-22}$$ eV (bottom). Square markers indicate median concentrations obtained from Einasto best-fits while the color of each hexbin is proportional to the number of halos whose Einasto concentration falls therein. "LB 16, CDM" and "LB 16, cFDM" show an analytical model prediction from [Ludlow et al 2016](https://arxiv.org/abs/1601.02624) for model parameters $$f=0.02$$ and $$C=650$$.* |
+| *Fig. 1: Concentration-mass relation $$c(M,z)$$ in different cosmologies, for $$N$$-body, $$1024^3$$ resolution, $$L_{\text{box}} = 40$$ cMpc$$/h$$ runs at redshift $$z=4.38$$. We compare the CDM halos (blue) with cFDM halos for particle mass $$m=2\times 10^{-21}$$ eV (top), $$m=7\times 10^{-22}$$ eV (middle) and $$m=10^{-22}$$ eV (bottom). Square markers indicate median concentrations obtained from Einasto best-fits while the color of each hexbin is proportional to the number of halos whose Einasto concentration falls therein. "LB 16, CDM" and "LB 16, cFDM" show an analytical model prediction from [Ludlow et al 2016](https://arxiv.org/abs/1601.02624) for model parameters $$f=0.02$$ and $$C=650$$.* |
 
 [Ludlow 2014](https://academic.oup.com/mnras/article/441/1/378/977251) showed that the concentration of a CDM halo can be inferred 
 from the critical density of the Universe at a characteristic time along its mass accretion history. The insight was used to construct an 
@@ -52,7 +52,7 @@ WDM, relying on the full "collapsed mass history" of a halo instead of its main 
 Press-Schechter theory, allowing to assess the dependence of halo concentrations on cosmological parameters and on the shape of the 
 linear matter power spectrum alike. It is this model whose validity for cFDM and high redshifts we would like to comment on.
 
-Fig. 2 shows parts of the $$c(M,z)$$ relation as inferred from the $$N$$-body, $$1024^3$$ resolution, $$L_{\text{box}} = 40$$ cMpc$$/h$$ runs 
+Fig. 1 shows parts of the $$c(M,z)$$ relation as inferred from the $$N$$-body, $$1024^3$$ resolution, $$L_{\text{box}} = 40$$ cMpc$$/h$$ runs 
 at redshift $$z=4.38$$. Square markers indicate concentrations as obtained from Einasto best-fits in the respective mass bin, while the color of 
 each hexbin is proportional to the number of halos whose concentration falls therein. The solid blue curve labelled "LB 16, CDM" is a broken power-law 
 fitting formula for $$c(M,z)$$ in the Planck cosmology from [Ludlow et al 2016](https://arxiv.org/abs/1601.02624) (Eq. C1). At fixed redshift $$z$$, 
@@ -89,11 +89,11 @@ At the same time, intrinsic alignments of galaxies provide complementary cosmolo
 can be disentangled from the lensing signal by means of either galaxy color [(Yao et al 2020)](https://ui.adsabs.harvard.edu/abs/2020ApJ...904..135Y/abstract)
 or polarisation data [(Brown et al 2011)](https://academic.oup.com/mnras/article/410/3/2057/964478).
 
-| <img src="/assets/images/ShapePos_032.png" width="400" height="550"> |
+| <img src="/assets/images/ShapePos_032.png" width="400" height="500"> |
 |:--:| 
-| *High-$$z$$ shape-position alignment statistics in different cosmologies, for $$N$$-body, $$1024^3$$ resolution, $$L_{\text{box}} = 40$$ cMpc$$/h$$ runs, at redshift $$z=4.38$$. We compare CDM halos (blue) to cFDM halos with particle mass $$m=2\times 10^{-21}$$ eV (magenta), $$m=7\times 10^{-22}$$ eV (dark-red) and $$m=10^{-22}$$ eV (orange-red). The results are for intermediate-mass halos in the range $$10^{10}-10^{11} M_{\odot}/h$$. Top: Shape-position alignments vs. 3D pair separation, out to $$L_{\text{box}}/2=20$$ cMpc$$/h$$ to avoid geometric bias induced by the simulation box. Shaded regions enclose the $$25$$th-$$75$$th percentiles. Bottom: PDF of shape-position alignments, with results of the Kolmogorov-Smirnov test of independence between the CDM and cFDM samples.* |
+| *Fig. 2: High-$$z$$ shape-position alignment statistics in different cosmologies, for $$N$$-body, $$1024^3$$ resolution, $$L_{\text{box}} = 40$$ cMpc$$/h$$ runs, at redshift $$z=4.38$$. We compare CDM halos (blue) to cFDM halos with particle mass $$m=2\times 10^{-21}$$ eV (magenta), $$m=7\times 10^{-22}$$ eV (dark-red) and $$m=10^{-22}$$ eV (orange-red). The results are for intermediate-mass halos in the range $$10^{10}-10^{11} M_{\odot}/h$$. Top: Shape-position alignments vs. 3D pair separation, out to $$L_{\text{box}}/2=20$$ cMpc$$/h$$ to avoid geometric bias induced by the simulation box. Shaded regions enclose the $$25$$th-$$75$$th percentiles. Bottom: PDF of shape-position alignments, with results of the Kolmogorov-Smirnov test of independence between the CDM and cFDM samples.* |
 
-In Fig. 3, we present shape-position alignment statistics for CDM as compared to cFDM halos at 
+In Fig. 2, we present shape-position alignment statistics for CDM as compared to cFDM halos at 
 redshift $$z=4.38$$, restricted to mass bin $$10^{10}-10^{11} \ M_{\odot}/h$$. We find that for large pair separations, 
 the median value for $$|\cos \theta|$$ asymptotically approaches $$0.5$$, a value consistent with a uniform random shape 
 orientation and halo clustering. For small pair separations, intermediate-mass CDM halos conspire to a median $$|\cos \theta|$$ 
@@ -102,7 +102,7 @@ found for real-space 3D mock light cones that they generated for the CANDELS sur
 shape-shape alignment strength barely reaches values of $$|\cos \theta|\sim 0.6$$ for smallest-separation halo pairs, which 
 is systematically lower than the shape-position alignment magnitude.
 
-For cFDM cosmologies, Fig. 3 clearly demonstrates how the geometric alignment is gradually enhanced as the cFDM particle mass $$m$$ is 
+For cFDM cosmologies, Fig. 2 clearly demonstrates how the geometric alignment is gradually enhanced as the cFDM particle mass $$m$$ is 
 decreased. For our most extreme cFDM model with $$m=10^{-22}$$ eV, the median $$|\cos \theta|$$ curve climbs up to $$0.753^{+0.021}_{-0.010}$$, 
 the wider-spread percentiles effected by the smaller number of halos compared to CDM. The enhancement is due to the lack of small-scale 
 structure such as smaller-mass halos that would regularise the tidal fields generated by quasi-linear cosmic filaments and to a lesser 
@@ -147,10 +147,10 @@ by about one grid cell.
 
 | ![IA](/assets/images/Dfitting_032.png) | 
 |:--:| 
-| *Fig. 4: Intrinsic alignment strengths in different cosmologies. We show the correlation of the two components of the halo ellipticity $$\epsilon_{+}$$, $$\epsilon_{\times}$$ with the respective tidal field components $$T_{+}$$, $$T_{\times}$$, for $$N$$-body, $$1024^3$$ resolution, $$L_{\text{box}} = 40$$ cMpc$$/h$$ runs at redshift $$z=4.38$$. Each dot represents one halo colour-coded by its triaxiality $$T$$. The blue dashed lines correspond to a linear fit to the binned data points, the shaded bands displaying the standard error on the mean (SEM) in each bin. The blue (CDM) and red solid lines (cFDM) depict the fits to the anisotropy-corrected data. All values are in units of $$c^2(\mathrm{{cMpc}}/h)^2$$.* |
+| *Fig. 3: Intrinsic alignment strengths in different cosmologies. We show the correlation of the two components of the halo ellipticity $$\epsilon_{+}$$, $$\epsilon_{\times}$$ with the respective tidal field components $$T_{+}$$, $$T_{\times}$$, for $$N$$-body, $$1024^3$$ resolution, $$L_{\text{box}} = 40$$ cMpc$$/h$$ runs at redshift $$z=4.38$$. Each dot represents one halo colour-coded by its triaxiality $$T$$. The blue dashed lines correspond to a linear fit to the binned data points, the shaded bands displaying the standard error on the mean (SEM) in each bin. The blue (CDM) and red solid lines (cFDM) depict the fits to the anisotropy-corrected data. All values are in units of $$c^2(\mathrm{{cMpc}}/h)^2$$.* |
 
-In Fig. 4, we present some selected best-fit results for the alignment parameter $$D$$. We quote isotropised values $$D_{\text{iso}}$$ rather than the raw $$D$$ values.
-As we decrease the cFDM particle mass $$m$$, one noticeable change in Fig. 4 comes from the higher average in the triaxiality $$T$$ of halos.
+In Fig. 3, we present some selected best-fit results for the alignment parameter $$D$$. We quote isotropised values $$D_{\text{iso}}$$ rather than the raw $$D$$ values.
+As we decrease the cFDM particle mass $$m$$, one noticeable change in Fig. 3 comes from the higher average in the triaxiality $$T$$ of halos.
 By the same token, the distributions of both the real and the imaginary part of the ellipticity $$\epsilon_{\times}$$ exhibit more 
 outliers / heavier tails at larger absolute values than for CDM. This is expected, since prolate halos tend to 
 look - on average - prolate in projection as well. This circumstance together with the distribution of local tidal field values $$T_{+}$$, $$T_{\times}$$, 

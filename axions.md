@@ -4,7 +4,7 @@ title: Axions
 katex: True
 ---
 
-# QCD Axions
+## QCD Axions
 
 The mass of the classic QCD axion is not known with certainty, and it is one of the key properties that experimental efforts are attempting to determine. 
 The mass of the axion is expected to be very light, with a range of possible values from as low as 1 micro-electronvolt (μeV) to as high as several milli-electronvolts (meV).
@@ -22,7 +22,7 @@ Despite decades of effort, the mass of the axion remains an open question, and f
 
 The axion field after PQ symmetry breaking (post-inflation) acts as a cold dark matter (CDM) condensate, and is thus a promising CDM candidate.
 
-# Ultra-Light Axion Dark Matter
+## Ultra-Light Axion Dark Matter
 
 Another cold dark matter candidate are ultra-light axions (ULAs). ULAs are a class of axion particles that have masses in the range of 
 about $$10^{-26}$$ to $$10^{-16}$$ eV. These axions are often referred to as "fuzzy" dark matter because their very low mass gives them a 
@@ -38,7 +38,7 @@ the large-scale structure of galaxies, constraints can be put on the cosmologica
 the cosmic microwave background radiation (CMB) is sensitive to ULAs and is being searched for by experiments like the Polarization of 
 Background Radiation (POLARBEAR) experiment.
 
-# Constraints
+## Constraints
 Experimental observations provide increasingly stringent bounds on the admissible mass ranges of FDM, see [Dome et al 2022](https://academic.oup.com/mnras/article/519/3/4183/6961063). 
 In that work, we provide a non-exhaustive list of recent constraints ordered by publication date, which we also show below:
 
