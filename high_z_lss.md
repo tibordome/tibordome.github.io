@@ -4,8 +4,6 @@ title: High-Redshift LSS
 katex: True
 ---
 
-# Impact on High-Redshift Large-Scale Structure
-
 The high-$$z$$ large-scale structure (LSS) refers to the distribution of matter on the largest scales, spanning billions of light years. The *cosmic web* is a 
 prominent feature of the large scale structure, consisting of a vast network of interconnected filaments and voids that stretch across the universe.
 It is composed of dark matter and gas, which provide the scaffolding for the visible matter, such as stars and galaxies, to cluster and grow. The 
@@ -90,7 +88,8 @@ At the same time, intrinsic alignments of galaxies provide complementary cosmolo
 can be disentangled from the lensing signal by means of either galaxy color [(Yao et al 2020)](https://ui.adsabs.harvard.edu/abs/2020ApJ...904..135Y/abstract)
 or polarisation data [(Brown et al 2011)](https://academic.oup.com/mnras/article/410/3/2057/964478).
 
-| <img src="/assets/images/ShapePos_032.png" width="400" height="550"> | *High-$$z$$ shape-position alignment statistics in different cosmologies, for $$N$$-body, $$1024^3$$ resolution, $$L_{\text{box}} = 40$$ cMpc$$/h$$ runs, at redshift $$z=4.38$$. We compare CDM halos (blue) to cFDM halos with particle mass $$m=2\times 10^{-21}$$ eV (magenta), $m=7\times 10^{-22}$ eV (dark-red) and $$m=10^{-22}$$ eV (orange-red). The results are for intermediate-mass halos in the range $$10^{10}-10^{11} M_{\odot}/h$$. Top: Shape-position alignments vs. 3D pair separation, out to $$L_{\text{box}}/2=20$$ cMpc$$/h$$ to avoid geometric bias induced by the simulation box. Shaded regions enclose the $$25$$th-$$75$$th percentiles. Bottom: PDF of shape-position alignments, with results of the Kolmogorov-Smirnov test of independence between the CDM and cFDM samples.* |
+| :----: | :----: | 
+| <img src="/assets/images/ShapePos_032.png" width="400" height="550"> | *High-$$z$$ shape-position alignment statistics in different cosmologies, for $$N$$-body, $$1024^3$$ resolution, $$L_{\text{box}} = 40$$ cMpc$$/h$$ runs, at redshift $$z=4.38$$. We compare CDM halos (blue) to cFDM halos with particle mass $$m=2\times 10^{-21}$$ eV (magenta), $$m=7\times 10^{-22}$$ eV (dark-red) and $$m=10^{-22}$$ eV (orange-red). The results are for intermediate-mass halos in the range $$10^{10}-10^{11} M_{\odot}/h$$. Top: Shape-position alignments vs. 3D pair separation, out to $$L_{\text{box}}/2=20$$ cMpc$$/h$$ to avoid geometric bias induced by the simulation box. Shaded regions enclose the $$25$$th-$$75$$th percentiles. Bottom: PDF of shape-position alignments, with results of the Kolmogorov-Smirnov test of independence between the CDM and cFDM samples.* |
 | :----: | :----: | 
 
 In Fig. 3, we present shape-position alignment statistics for CDM as compared to cFDM halos at 
@@ -139,7 +138,7 @@ and obtain the Hessian of the potential algebraically in Fourier space via
 
 $$\frac{\Phi_{,ij}}{c^2}(\mathbf{x}) = \frac{3\Omega_m}{2\chi_H^2a}\mathcal{F}^{-1}\left[ \frac{k_ik_j}{|\mathbf{k}|^2} \exp\left(-\frac{1}{2}|\mathbf{k}|^2\lambda^2\right)\mathcal{F}[\delta(\mathbf{x})]\right],$$
 
-where $$\mathbf{k}$$ is the comoving wave vector, $$\chi_H \coloneqq \frac{c}{H_0}$$ is the Hubble-distance and $$a$$ the cosmic scale factor. 
+where $$\mathbf{k}$$ is the comoving wave vector, $$\chi_H = \frac{c}{H_0}$$ is the Hubble-distance and $$a$$ the cosmic scale factor. 
 There is a non-removable uncertainty on the scale the effective tidal field relevant for LAM should be evaluated on. Here, we consider a Gaussian smoothing 
 scale of $$\lambda =$$ 1 cMpc/$$h$$. This scale corresponds to halos of mass $$M = 4\pi/3 \Omega_m \rho_{\mathrm{crit}} \lambda^3 \sim 10^{11} \ M_{\odot}/h$$. Finally, 
 to obtain the tidal shear at the halo positions, we perform an inverse CIC interpolation, effectively increasing the smoothing scale $$\lambda$$ 
@@ -147,9 +146,9 @@ by about one grid cell.
 
 | ![IA](/assets/images/Dfitting_032.png) | 
 |:--:| 
-| * Fig. 4: Intrinsic alignment strengths in different cosmologies. We show the correlation of the two components of the halo ellipticity $$\epsilon_{+}$$, $$\epsilon_{\times}$$ with the respective tidal field components $$T_{+}$$, $$T_{\times}$$, for $$N$$-body, $$1024^3$$ resolution, $$L_{\text{box}} = 40$$ cMpc$$/h$$ runs at redshift $$z=4.38$$. Each dot represents one halo colour-coded by its triaxiality $$T$$. The blue dashed lines correspond to a linear fit to the binned data points, the shaded bands displaying the standard error on the mean (SEM) in each bin. The blue (CDM) and red solid lines (cFDM) depict the fits to the anisotropy-corrected data. All values are in units of $$c^2(\mathrm{{cMpc}}/h)^2$$.* |
+| *Fig. 4: Intrinsic alignment strengths in different cosmologies. We show the correlation of the two components of the halo ellipticity $$\epsilon_{+}$$, $$\epsilon_{\times}$$ with the respective tidal field components $$T_{+}$$, $$T_{\times}$$, for $$N$$-body, $$1024^3$$ resolution, $$L_{\text{box}} = 40$$ cMpc$$/h$$ runs at redshift $$z=4.38$$. Each dot represents one halo colour-coded by its triaxiality $$T$$. The blue dashed lines correspond to a linear fit to the binned data points, the shaded bands displaying the standard error on the mean (SEM) in each bin. The blue (CDM) and red solid lines (cFDM) depict the fits to the anisotropy-corrected data. All values are in units of $$c^2(\mathrm{{cMpc}}/h)^2$$.* |
 
-In Fig. 4, we present some selected best-fit results for the alignment parameter $$D$$. We quote isotropised values $D_{\text{iso}}$ rather than the raw $$D$$ values.
+In Fig. 4, we present some selected best-fit results for the alignment parameter $$D$$. We quote isotropised values $$D_{\text{iso}}$$ rather than the raw $$D$$ values.
 As we decrease the cFDM particle mass $$m$$, one noticeable change in Fig. 4 comes from the higher average in the triaxiality $$T$$ of halos.
 By the same token, the distributions of both the real and the imaginary part of the ellipticity $$\epsilon_{\times}$$ exhibit more 
 outliers / heavier tails at larger absolute values than for CDM. This is expected, since prolate halos tend to 
