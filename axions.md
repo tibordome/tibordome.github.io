@@ -47,8 +47,8 @@ In that work, we provide a non-exhaustive list of recent constraints ordered by 
 | *Fig. 1: Recent particle mass constraints for warm dark matter (WDM) / FDM from astrophysical observations in the FDM window of $$10^{-26}$$ eV $$<m<10^{-16}$$ eV. The red shading indicates a disfavored parameter space, though not necessarily a $$2\sigma$$-constraint. The orange shading indicates forecasts for future observatories. UFDs = ultra-faint dwarf galaxies; SMBHs = supermassive black holes.* |
 
 While the density profiles in the central regions of dwarf spheroidals can be explained with a FDM soliton core potential provided that 
-$$m_a \le 1.1 \times 10^{-22}$$ eV [(Marsh & Pop 2015)](https://arxiv.org/abs/1502.03456), Ly-α observations find a lower 
-bound $$m_a \ge 3.8 \times 10^{-21}$$ eV to have enough power on Mpc-scales 
+$$m \le 1.1 \times 10^{-22}$$ eV [(Marsh & Pop 2015)](https://arxiv.org/abs/1502.03456), Ly-α observations find a lower 
+bound $$m \ge 3.8 \times 10^{-21}$$ eV to have enough power on Mpc-scales 
 in the Ly-α forest [(Irsic et al 2017)](https://arxiv.org/abs/1703.04683), constituting a Catch-22 problem. 
 Recently, [Safarzadeh & Spergel 2020](https://arxiv.org/abs/1906.11848) showed that a pure FDM cosmology is inconsistent with dwarf spheroidals across the
 entire parameter space by at least 3σ. More sophisticated models of
