@@ -95,7 +95,7 @@ assembly corresponds to higher characteristic densities, reflecting the larger b
 is shown below.
 
 | <img src="/assets/images/cVersusM.png" width="400" height="850"> | *Fig. 2: Concentration-mass relation $$c(M,z)$$ in different cosmologies, for $$N$$-body, $$1024^3$$ resolution, $$L_{\text{box}} = 40$$ cMpc$$/h$$ runs at redshift $$z=4.38$$. We compare the CDM halos (blue) with cFDM halos for particle mass $$m=2\times 10^{-21}$$ eV (top), $$m=7\times 10^{-22}$$ eV (middle) and $$m=10^{-22}$$ eV (bottom). Square markers indicate median concentrations obtained from Einasto best-fits while the color of each hexbin is proportional to the number of halos whose Einasto concentration falls therein. "LB 16, CDM" and "LB 16, cFDM" show an analytical model prediction from [Ludlow et al 2016](https://arxiv.org/abs/1601.02624) for model parameters $$f=0.02$$ and $$C=650$$.* |
-|:--:| :--:| 
+| :----: | :----: | 
 
 [Ludlow 2014](https://academic.oup.com/mnras/article/441/1/378/977251) showed that the concentration of a CDM halo can be inferred 
 from the critical density of the Universe at a characteristic time along its mass accretion history. The insight was used to construct an 
@@ -142,8 +142,8 @@ At the same time, intrinsic alignments of galaxies provide complementary cosmolo
 can be disentangled from the lensing signal by means of either galaxy color [(Yao et al 2020)](https://ui.adsabs.harvard.edu/abs/2020ApJ...904..135Y/abstract)
 or polarisation data [(Brown et al 2011)](https://academic.oup.com/mnras/article/410/3/2057/964478).
 
-| <img src="/assets/images/ShapePos_032.png" width="400" height="700"> | *High-$$z$$ shape-position alignment statistics in different cosmologies, for $$N$$-body, $$1024^3$$ resolution, $$L_{\text{box}} = 40$$ cMpc$$/h$$ runs, at redshift $$z=4.38$$. We compare CDM halos (blue) to cFDM halos with particle mass $$m=2\times 10^{-21}$$ eV (magenta), $m=7\times 10^{-22}$ eV (dark-red) and $$m=10^{-22}$$ eV (orange-red). The results are for intermediate-mass halos in the range $$10^{10}-10^{11} M_{\odot}/h$$. Top: Shape-position alignments vs. 3D pair separation, out to $$L_{\text{box}}/2=20$$ cMpc$$/h$$ to avoid geometric bias induced by the simulation box. Shaded regions enclose the $$25$$th-$$75$$th percentiles. Bottom: PDF of shape-position alignments, with results of the Kolmogorov-Smirnov test of independence between the CDM and cFDM samples.}
-|:--:| :--:|
+| <img src="/assets/images/ShapePos_032.png" width="400" height="700"> | *High-$$z$$ shape-position alignment statistics in different cosmologies, for $$N$$-body, $$1024^3$$ resolution, $$L_{\text{box}} = 40$$ cMpc$$/h$$ runs, at redshift $$z=4.38$$. We compare CDM halos (blue) to cFDM halos with particle mass $$m=2\times 10^{-21}$$ eV (magenta), $m=7\times 10^{-22}$ eV (dark-red) and $$m=10^{-22}$$ eV (orange-red). The results are for intermediate-mass halos in the range $$10^{10}-10^{11} M_{\odot}/h$$. Top: Shape-position alignments vs. 3D pair separation, out to $$L_{\text{box}}/2=20$$ cMpc$$/h$$ to avoid geometric bias induced by the simulation box. Shaded regions enclose the $$25$$th-$$75$$th percentiles. Bottom: PDF of shape-position alignments, with results of the Kolmogorov-Smirnov test of independence between the CDM and cFDM samples.* |
+| :----: | :----: | 
 
 In Fig. 3, we present shape-position alignment statistics for CDM as compared to cFDM halos at 
 redshift $$z=4.38$$, restricted to mass bin $$10^{10}-10^{11} \ M_{\odot}/h$$. We find that for large pair separations, 
