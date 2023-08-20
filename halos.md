@@ -1,6 +1,6 @@
 ---
 layout: page
-title: High-Redshift LSS
+title: Halos
 katex: True
 ---
 
@@ -8,16 +8,10 @@ The high-$$z$$ large-scale structure (LSS) refers to the distribution of matter 
 prominent feature of the large scale structure, consisting of a vast network of interconnected filaments and voids that stretch across the universe.
 It is composed of dark matter and gas, which provide the scaffolding for the visible matter, such as stars and galaxies, to cluster and grow. The 
 filaments of the cosmic web are the densest regions of matter, where galaxies and clusters of galaxies are found. These filaments are separated by 
-vast, low-density voids, which are essentially empty regions of space. Nodes, knots, or virialised halos, form the smallest building block of the LSS. 
-
-At high redshift, the Universe evolves mostly linearly, i.e. linear relativistic (or Newtonian) perturbation theory (PT) still provides an accurate 
-description of gravitational collapse in an expanding Universe. When applying linear PT to a Gaussian field, which provides an accurate description of 
-primordial density fluctuations in the early Universe, one finds that different wavelength modes do not couple; they evolve independently. Since FDM on 
-large scales (including halo scales) is most manifest in an effective small-scale cutoff of the primordial density fluctuations, i.e. affecting 
-small-scale modes, FDM imprints at high-$$z$$ are especially pronounced.
-
-In [Dome et al 2022](https://academic.oup.com/mnras/article/519/3/4183/6961063), we quantify FDM imprints on the internal properties of halos 
-by analysing a suite of $$N$$-body simulations, run for both CDM and multiple FDM models.
+vast, low-density voids, which are essentially empty regions of space. Nodes, or knots, form the smallest building block of the LSS. 
+For more details about the cosmic web see [this page](cosmic_web.md). Here we focus on virialised halos which are embedded into nodes. 
+FDM has many imprints on the internal properties of halos, which we show by analysing a suite of $$N$$-body simulations of CDM and multiple FDM 
+models [Dome et al 2022](https://academic.oup.com/mnras/article/519/3/4183/6961063).
 
 ## Halo Density profiles
 
