@@ -60,26 +60,25 @@ along with our implementation choices are as follows.
 
    $$g_{R_n}(\vec{x}) = \int_{\mathbb{R}^3} \frac{d^3\vec{k}}{(2\pi)^3}e^{-\vec{k}^2\frac{R_n^2}{2}}\hat{g}(\vec{k})e^{i\vec{k}\vec{x}}.$$
 
-   This yields the NEXUS+ smoothed field \(f_{R_n}(\vec{x}) = C_{R_n}10^{g_{R_n}(\vec{x})}\) by exponentiation, where \(C_{R_n}\) assures the mean of the input field is the same before and after filtering.
+   This yields the NEXUS+ smoothed field $$f_{R_n}(\vec{x}) = C_{R_n}10^{g_{R_n}(\vec{x})}$$ by exponentiation, where $$C_{R_n}$$ assures 
+   the mean of the input field is the same before and after filtering.
 
-2. Computing Hessian eigenvalues. The Fourier transform of the Hessian \(H_{ij,R_n}(\vec{x})=R_n^2\frac{\partial^2 f_{R_n}(\vec{x})}{\partial x_i \partial x_j}\) reads
+2. Computing Hessian eigenvalues. The Fourier transform of the Hessian $$H_{ij,R_n}(\vec{x})=R_n^2\frac{\partial^2 f_{R_n}(\vec{x})}{\partial x_i \partial x_j}$$ reads
 
-   \[
-   H_{ij,R_n}(\vec{k})=-k_ik_jR_n^2\hat{f}_{R_n}(\vec{k}).
-   \]
+   $$H_{ij,R_n}(\vec{k})=-k_ik_jR_n^2\hat{f}_{R_n}(\vec{k}).$$
 
-3. Assigning to each point a cluster, filament and wall signature. The three eigenvalues \(\lambda_1 \leq \lambda_2 \leq \lambda_3\) of the Hessian \(H_{ij,R_n}(\vec{x})\) can be combined into a shape strength as
+3. Assigning to each point a cluster, filament and wall signature. The three eigenvalues $$\lambda_1 \leq \lambda_2 \leq \lambda_3$$ of the 
+   Hessian $$H_{ij,R_n}(\vec{x})$$ can be combined into a shape strength as
 
-   \[
-   \mathcal{I}_{R_n} = 
+   $$\mathcal{I}_{R_n} = 
    \begin{cases}
    	\ \big|\frac{\lambda_3}{\lambda_1} \big| & \text{node} \\ 
    	\ \big|\frac{\lambda_2}{\lambda_1} \big| \Theta\left(1-\big|\frac{\lambda_3}{\lambda_1} \big|\right) & \text{filament}\\
    	\ \Theta\left(1-\big|\frac{\lambda_2}{\lambda_1} \big|\right) \Theta\left(1-\big|\frac{\lambda_3}{\lambda_1} \big|\right) & \text{wall},
-   \end{cases}
-   \]
+   \end{cases}$$
 
-   where we use the notation \(\Theta(x) = x\theta(x)\) for clarity, with \(\theta(x)\) the Heaviside step function (\(\theta(x) = 1\) if \(x \geq 0\), 0 otherwise). We thus obtain the cluster/filament/wall signature as:
+   where we use the notation $$\Theta(x) = x\theta(x)$$ for clarity, with $$\theta(x)$$ the Heaviside step function $$\theta(x) = 1$$ if $$x \geq 0$$, $$0$$ otherwise. 
+   We thus obtain the cluster/filament/wall signature as:
 
    \[
    \mathcal{S}_{R_n} = \mathcal{I}_{R_n}\times
