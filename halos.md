@@ -19,7 +19,9 @@ Halos are first identified using the virialisation condition which is typically 
 theory solution to beyond shell-crossing. With respect to the mean overdensity of the universe, it is given by 
 [(Bryan & Norman 1998)](https://iopscience.iop.org/article/10.1086/305262)
 
-$$ \tag{\htmlId{formula}{foo}} \Delta_{\text{vir}} = \frac{18\pi^2+82x-39x^2}{\Omega_0}-1.$$
+$$\label{e_bryan} \tag{1}
+\Delta_{\text{vir}} = \frac{18\pi^2+82x-39x^2}{\Omega_0}-1.
+$$
 
 Halo density profiles are then approximated by the Einasto
 profile [(Einasto 1965)](https://ui.adsabs.harvard.edu/abs/1965TrAlm...5...87E/abstract),

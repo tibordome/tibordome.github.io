@@ -20,9 +20,10 @@ plugins:
   
 # Katex settings
 katex:
-  enable: true
-  throwOnError: false
-  trust: true
+  rendering_options:
+      trust: true
+      throw_error: true
+      error_color: "#cc0000" 
 
 # Theme-specific settings
 
