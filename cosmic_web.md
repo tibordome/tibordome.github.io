@@ -55,11 +55,10 @@ log-smoothing the density field over a range of spatial filter sizes $$R_n \in (
 scale-space, it detects at which scales and locations the various morphological signatures are most prominent. The six steps of the algorithm 
 along with our implementation choices are as follows.
 
-1. Applying a log-Gaussian filter of width \(R_n\) to the input field. If the input field is continuous and denoted by \( f(\vec{x}) \), smoothing the log-field \(g = \log_{10} f\) amounts to a simple multiplication with the Gaussian exponential in Fourier space:
+1. Applying a log-Gaussian filter of width $$R_n$$ to the input field. If the input field is continuous and denoted by $$f(\vec{x})$$, 
+   smoothing the log-field $$g = \log_{10} f$$ amounts to a simple multiplication with the Gaussian exponential in Fourier space:
 
-   \[
-   g_{R_n}(\vec{x}) = \int_{\mathbb{R}^3} \frac{d^3\vec{k}}{(2\pi)^3}e^{-\vec{k}^2\frac{R_n^2}{2}}\hat{g}(\vec{k})e^{i\vec{k}\vec{x}}.
-   \]
+   $$g_{R_n}(\vec{x}) = \int_{\mathbb{R}^3} \frac{d^3\vec{k}}{(2\pi)^3}e^{-\vec{k}^2\frac{R_n^2}{2}}\hat{g}(\vec{k})e^{i\vec{k}\vec{x}}.$$
 
    This yields the NEXUS+ smoothed field \(f_{R_n}(\vec{x}) = C_{R_n}10^{g_{R_n}(\vec{x})}\) by exponentiation, where \(C_{R_n}\) assures the mean of the input field is the same before and after filtering.
 
