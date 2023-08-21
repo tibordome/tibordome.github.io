@@ -51,7 +51,7 @@ However, the density field fails to converge due to order unity fluctuations dri
 principle [(Mocz_2018)](https://ui.adsabs.harvard.edu/abs/2018PhRvD..97h3519M/abstract). Mathematically, there is no 
 exact correspondence between the Schrödinger-Poisson and the Vlasov-Poisson equation since the former describes a fluid 
 while the latter collisionless particles. FDM remains a fluid even for $$\hbar/m \rightarrow 0$$. This quasi-correspondence 
-between FDM and CDM in the large-$$m$$ limit, or rather, the \textit{exact} correspondence between cFDM and CDM, is visible 
+between FDM and CDM in the large-$$m$$ limit, or rather, the $exact$ correspondence between cFDM and CDM, is visible 
 in the density field projections of Fig. 1. They illustrate how small-scale power is suppressed as the axion mass is 
 reduced from infinity (CDM, top left) all the way down to $$m=10^{-22} \ \text{eV}$$ (bottom right).
 
@@ -148,7 +148,7 @@ $$
 | <img src="/assets/images/cosmic_web/nexus_algo/LumenCDMxProj_x0y0z1_033.png" width="250" height="250"> <img src="/assets/images/cosmic_web/nexus_algo/LumenFDM_2E21xProj_x0y0z1_033.png" width="250" height="250"> |
 | <img src="/assets/images/cosmic_web/nexus_algo/LumenFDM_7E22xProj_x0y0z1_033.png" width="250" height="250"> <img src="/assets/images/cosmic_web/nexus_algo/LumenFDM_1E22xProj_x0y0z1_033.png" width="250" height="250"> |
 |:--:--:| 
-| *Fig. 2: An illuminated 2D projection of the filamentary NEXUS+ network $$\mathcal{S}_f(\mathbf{x})$$ after scale-space stacking and imposition of $$\mathcal{S}_{f,\mathrm{cut}}$$ in logarithmic projection at redshift $$z=3.9$$ in a $$9 \times 9 \times 9 \ (h^{-1}\text{Mpc})^3$$ volume (corresponding to Fig. \ref{f_cic_plot}) of the $$N$$-body CDM (top left) and cFDM runs ($$m=2\times 10^{-21}$$ eV run: top right, $$m=7\times 10^{-22}$$ eV run: bottom left and $$m=10^{-22}$$ eV run: bottom right) with $$1024^3$$ resolution and $$L_{\text{box}} = 10 \ h^{-1}$$Mpc.* |
+| *Fig. 2: An illuminated 2D projection of the filamentary NEXUS+ network $$\mathcal{S}_f(\mathbf{x})$$ after scale-space stacking and imposition of $$\mathcal{S}_{f,\mathrm{cut}}$$ in logarithmic projection at redshift $$z=3.9$$ in a $$9 \times 9 \times 9 \ (h^{-1}\text{Mpc})^3$$ volume (corresponding to Fig. 1) of the $$N$$-body CDM (top left) and cFDM runs ($$m=2\times 10^{-21}$$ eV run: top right, $$m=7\times 10^{-22}$$ eV run: bottom left and $$m=10^{-22}$$ eV run: bottom right) with $$1024^3$$ resolution and $$L_{\text{box}} = 10 \ h^{-1}$$Mpc.* |
 
 For the above set of parameter choices and definition of signature thresholds, Fig. 2 shows a 2D projection of the filament 
 signature field $$\mathcal{S}_f(\mathbf{x})$$ after scale-space stacking and after imposition of the threshold 
@@ -173,10 +173,10 @@ while nodes always become more massive, establishing two opposite-trended monoto
 fractions of voids and nodes as visible in Fig. 3.
 
 Even though walls experience both inflow and outflow of matter just as filaments, they tend to be described by 
-decreasing mass and volume fractions at both high and low redshift. Two-dimensional sheets (walls) contain $$\sim 10$$\% less 
+decreasing mass and volume fractions at both high and low redshift. Two-dimensional sheets (walls) contain $$\sim 10$$% less 
 mass and volume at $$z=1$$ than at $$z= 5.6$$ in both CDM and cFDM. By contrast, filaments tend to keep their mass filling 
 fractions fairly constant across cosmic time until $$z\sim 3$$, below which they start decreasing. Their volume fractions 
-decrease gradually, from around $$\sim 28$$\% at $$z= 5.6$$ to around $$\sim 13$$\% at $$z=1$$. This suggests that similar 
+decrease gradually, from around $$\sim 28$$% at $$z= 5.6$$ to around $$\sim 13$$% at $$z=1$$. This suggests that similar 
 mass fractions get accumulated into fewer, but more massive filaments. With the largest share of mass, cosmic filaments 
 play a critical role in the formation of galaxies, co-determining their spin and spatial distribution, see
 [Malavasi et al. (2020)](https://ui.adsabs.harvard.edu/abs/2020A&A...642A..19M) and
@@ -188,13 +188,13 @@ the properties of galaxies, see e.g. [Wilman et al. (2012)](https://ui.adsabs.ha
 How DM is distributed across different components of the cosmic web depends on the DM model at hand and 
 thus the cosmology. Here we find that the lower the axion mass $$m$$, the lower the relative share of mass 
 in nodes and filaments and the higher the mass share in walls when compared to CDM. To be precise, the 
-mass filling fraction of filaments exhibits a $$\sim 6-8$$\% decrease between CDM and the $$m=10^{-22}$$ eV 
-model across most of the redshifts investigated. This is mainly compensated for by a $$\sim 8-12$$\% increase 
+mass filling fraction of filaments exhibits a $$\sim 6-8$$% decrease between CDM and the $$m=10^{-22}$$ eV 
+model across most of the redshifts investigated. This is mainly compensated for by a $$\sim 8-12$$% increase 
 in mass filling fractions of walls between CDM and the $$m=10^{-22}$$ eV model. The redistribution of DM to 
 higher-dimensional structures, i.e. sheets, is a manifestation of the loss of small-scale power in the primordial 
 and also evolved DM distributions.
 
-| <img src="/assets/images/cosmic_web/results/MassFrac.pdf" width="250" height="450"> <img src="/assets/images/cosmic_web/results/VolFrac.pdf" width="250" height="450"> |
+| <img src="/assets/images/cosmic_web/results/MassFrac.png" width="350" height="550"> <img src="/assets/images/cosmic_web/results/VolFrac.png" width="350" height="550"> |
 |:--:--:| 
 | *Fig. 3: Evolution of the mass (left) and volume (right) filling fractions for the $$N$$-body CDM and cFDM runs with $$1024^3$$ resolution and $$L_{\text{box}} = 40\ h^{-1}$$Mpc. Each row represents a different NEXUS+ cosmic web environment. Cosmologies are differentiated by color as shown in the legend.* |
 
@@ -218,7 +218,7 @@ distributions. As in the rest of this work, we use the CIC density to obtain the
 function (PDF) of the log overdensity field $$\log_{10}(1 + \delta)$$. In Fig. 4,
 the PDF is segmented into morphological components.
 
-| <img src="/assets/images/cosmic_web/results/DensPDFs_033.pdf" width="250" height="550"> |
+| <img src="/assets/images/cosmic_web/results/DensPDFs_033.png" width="400" height="750"> |
 |:--:| 
 | *Fig. 4: Log overdensity PDFs for the $$N$$-body CDM and cFDM runs with $$1024^3$$ resolution and $$L_{\text{box}} = 40\ h^{-1}$$Mpc at redshift $$z=3.9$$. Cosmologies are differentiated by color as shown in the legend. The first four rows represent different NEXUS+ cosmic web environments while the last row shows the overall log overdensity PDFs. The dashed green curve (fourth row) is the CDM best-fit result using the [Miralda-Escudé et al. (2000)][(http://dx.doi.org/10.1086/308330) fitting formula for the void log overdensity PDF while the dashed cyan curve (bottom row) is the CDM best fit among the family of reversed Weibull distributions, cf. [Repp & Szapudi (2018)](https://ui.adsabs.harvard.edu/abs/2018MNRAS.473.3598R).* |
 
@@ -264,7 +264,7 @@ $$\langle \delta^p \rangle = \int_{-1}^{\infty}\mathrm{d}\delta P(\delta)\delta^
 
 and accordingly $$S_3 = \langle \delta^3 \rangle / \langle \delta^2 \rangle^2$$. The overdensity distribution 
 function $$\mathrm{d}N/\mathrm{d}\delta = P(\delta)$$ is defined as the normalised number of elements of 
-the density field with a density contrast in the range $$\[\delta, \delta + \mathrm{d}\delta\]$$, and is thus 
+the density field with a density contrast in [$$\delta, \delta + \mathrm{d}\delta$$], and is thus 
 related to the log PDF via
 
 $$\frac{\mathrm{d}N}{\mathrm{d}(\delta + 1)} = \frac{1}{\ln(10)}\frac{\mathrm{d}N}{(\delta + 1)\mathrm{d}\log_{10}(\delta + 1)}.$$
@@ -290,7 +290,7 @@ standard variance we adopt is
 $$\hat{\mathrm{var}}(\hat{\theta}_{\mathrm{jack}}) = \frac{1}{N}\frac{1}{N-1}\sum_{i=1}^{N}\left(\mathrm{PV}(\mathrm{x}_{(i)})-\overline{\mathrm{PV}}\right)^2.$$
 
 Here, $$\mathrm{x}_{(i)}$$ denotes the sample but with the $$i^{\mathrm{th}}$$ observation removed. 
-In our case, this translates to a subbox removal. Each \textit{pseudo-value}, 
+In our case, this translates to a subbox removal. Each $pseudo-value$, 
 $$\mathrm{PV}(\mathrm{x}_{(i)})=n\hat{\theta}-(n-1)\hat{\theta}_{(i)}$$, can be viewed as an estimate 
 of $$\theta = S_3$$, and it is their variance that determines the jackknife standard error.
 
@@ -316,7 +316,7 @@ determine the third one, the dependence of $$S_3$$ can be written either way. Mo
 function of $$\sigma$$ (such as the lognormal distribution) thus cannot possibly account for the evolution 
 of the PDF with redshift.
 
-| <img src="/assets/images/cosmic_web/results/DensPDFsSkewnessS3Jackknife.pdf" width="250" height="250"> |
+| <img src="/assets/images/cosmic_web/results/DensPDFsSkewnessS3Jackknife.png" width="400" height="250"> |
 |:--:| 
 | *Fig. 5: Skewness $$S_3$$ of overdensity PDFs for the $$N$$-body CDM and cFDM runs with $$1024^3$$ resolution and $$L_{\text{box}} = 40\ h^{-1}$$Mpc across redshifts $$z\sim 1.0-5.6$$. Cosmologies are differentiated by color as shown in the legend. There is no conditioning on cosmic environment. Error estimates from jackknife resampling with $$4^3$$ subboxes are marked. The prediction $$S_3 = 34/7$$ by Peebles (1980), based on linear PT, for the Einstein-de Sitter (EdS) model (for which $$\Omega_m = 1.0$$) is shown for comparison.* |
 
@@ -350,12 +350,12 @@ According to standard theories of structure formation, DM halos play a crucial r
 However, cosmic environments co-determine the formation of galaxies not least because of large-scale 
 tidal forces. For instance, the enhancement in clustering induced by correlations between halo assembly 
 history and large-scale environment at fixed halo mass is readily observed in cosmological simulations 
-yet difficult to detect in observations, called halo \& galaxy assembly bias 
+yet difficult to detect in observations, called halo & galaxy assembly bias 
 [(Sunayama et al. 2022](https://ui.adsabs.harvard.edu/abs/2022arXiv220503277S). Here, we investigate the 
 differences in the halo population across the cosmic web components which in turn are suggestive of 
 variations with large-scale environment in the population of galaxies and their properties.
 
-| <img src="/assets/images/cosmic_web/results/CumHMFs_033.pdf" width="250" height="550"> |
+| <img src="/assets/images/cosmic_web/results/CumHMFs_033.png" width="400" height="550"> |
 |:--:| 
 | *Fig. 6: Cumulative halo mass functions (cHMFs) for the $$N$$-body CDM and cFDM runs with $$1024^3$$ resolution and $$L_{\text{box}} = 40\ h^{-1}$$Mpc at redshift $$z=3.9$$, split according to the NEXUS+ environment in which the halo resides, indicated for each panel. The last row shows the overall cHMFs; vertical dashed lines denote the half-mode mass $$M_{1/2}$$ [(Marsh 2016)](http://dx.doi.org/10.1016/j.physrep.2016.06.005) of the $$m=10^{-22}$$ eV and the $$m=7\times 10^{-22}$$ eV models (for $$m=2\times 10^{-21}$$ eV cFDM, $$M_{1/2} = 5.77 \times 10^8 \ h^{-1} M_{\odot}$$ is off-scale).* |
 
@@ -376,9 +376,9 @@ cFDM cosmologies have fewer small-mass halos compared to CDM but here we quantif
 cHMFs. All node-, filament- and wall-conditioned cHMFs exhibit a strong suppression in cFDM cosmologies, but 
 for some environments this occurs well above the half-mode mass $$M_{1/2}$$ 
 [(Marsh 2016)](http://dx.doi.org/10.1016/j.physrep.2016.06.005). As seen in Fig. 6 at $$z=3.9$$, the node-conditioned 
-cHMF of the $$m=7\times 10^{-22}$$ eV model exhibits a $$50$$\% reduction below a mass of 
+cHMF of the $$m=7\times 10^{-22}$$ eV model exhibits a $$50$$% reduction below a mass of 
 $$M_h \sim 10^{10} \ h^{-1} M_{\odot}$$ while the half-mode mass is $$M_{1/2} = 2.3\times 10^{9} \ h^{-1} M_{\odot}$$. 
-For wall halos in $$m=7\times 10^{-22}$$ eV cFDM, we observe a $$>50$$\% reduction below a mass of 
+For wall halos in $$m=7\times 10^{-22}$$ eV cFDM, we observe a $$>50$$% reduction below a mass of 
 $$M_h \sim 4 \times 10^{9} \ h^{-1} M_{\odot}$$. Thus, if the given environment is not dominant on 
 the mass scale considered, the cFDM suppression can turn out stronger than naively expected from $$M_{1/2}$$. 
 
