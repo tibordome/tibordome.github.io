@@ -17,6 +17,12 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
+  
+# Katex settings
+katex:
+  enable: true
+  throwOnError: false
+  trust: true
 
 # Theme-specific settings
 

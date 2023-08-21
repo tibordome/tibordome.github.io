@@ -105,7 +105,7 @@ along with our implementation choices are as follows.
 
 6. Computing the detection threshold. As the last step, we impose physical criteria to determine the detection threshold corresponding to 
    valid environments. For nodes, the threshold signature $$\mathcal{S}_{c,\mathrm{cut}}$$ is found by requiring that at least half of the 
-   connected regions are virialised according to Eq. {eq}`e_bryan`. This is in contrast to the original papers 
+   connected regions are virialised according to Eq. \href{#formula}{foo}. This is in contrast to the original papers 
    [Cautun et al. (2012)](https://academic.oup.com/mnras/article/429/2/1286/1038906) and
    [Cautun et al. (2014)](https://academic.oup.com/mnras/article/441/4/2923/1213214), where the authors use a virialisation overdensity 
    of $$\Delta_{\text{vir}} = 370$$. To identify connected regions for each node signature floor $$\mathcal{S}_{c}$$, we label them based on a 
