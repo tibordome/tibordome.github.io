@@ -15,7 +15,16 @@ models [Dome et al 2022](https://academic.oup.com/mnras/article/519/3/4183/69610
 
 ## Halo Density profiles
 
-Halo density profiles are well approximated by the Einasto 
+Halos are first identified using the virialisation condition which is typically estimated using spherical collapse theory by extrapolating the linear 
+theory solution to beyond shell-crossing. With respect to the mean overdensity of the universe, it is given by 
+[(Bryan & Norman 1998)](https://iopscience.iop.org/article/10.1086/305262)
+
+```{math}
+:label: e_bryan
+\Delta_{\text{vir}} = \frac{18\pi^2+82x-39x^2}{\Omega_0}-1.
+```
+
+Halo density profiles are then approximated by the Einasto
 profile [(Einasto 1965)](https://ui.adsabs.harvard.edu/abs/1965TrAlm...5...87E/abstract),
 
 $$\ln\left(\frac{\rho_E(r)}{\rho_{-2}}\right) = -\frac{2}{\alpha}\left[\left(\frac{r}{r_{-2}}\right)^{\alpha}-1\right].$$

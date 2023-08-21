@@ -80,33 +80,44 @@ along with our implementation choices are as follows.
    where we use the notation $$\Theta(x) = x\theta(x)$$ for clarity, with $$\theta(x)$$ the Heaviside step function $$\theta(x) = 1$$ if $$x \geq 0$$, $$0$$ otherwise. 
    We thus obtain the cluster/filament/wall signature as:
 
-   \[
-   \mathcal{S}_{R_n} = \mathcal{I}_{R_n}\times
+   $$\mathcal{S}_{R_n} = \mathcal{I}_{R_n}\times
    \begin{cases}
    	\ |\lambda_3|\theta(-\lambda_1)\theta(-\lambda_2)\theta(-\lambda_3) & \text{node} \\ 
    	\ |\lambda_2|\theta(-\lambda_1)\theta(-\lambda_2) & \text{filament}\\
    	\ |\lambda_1|\theta(-\lambda_1) & \text{wall}.
-   \end{cases}
-   \]
+   \end{cases}$$
 
-   We multiply by \(|\lambda_i|\) to distinguish between noise (small \(|\lambda_i|\)) and real signals (large \(|\lambda_i|\)) while the \(\theta(-\lambda_i)\) factors impose the necessary eigenvalue constraints.
+   We multiply by $$|\lambda_i|$$ to distinguish between noise (small $$|\lambda_i|$$) and real signals (large $$|\lambda_i|$$) while the $$\theta(-\lambda_i)$$ 
+   factors impose the necessary eigenvalue constraints.
 
-4. Computing the environmental signature over a range of smoothing scales. We repeat steps 1-3 over a range of smoothing scales (\(R_0\), \(R_1\), ..., \(R_N\)). While NEXUS+ is a multi-scale approach, the hierarchy of smoothing scales is a user input. In view of computational feasibility, we opt for relative \(\sqrt{2}\)-spacings following \cite{Cautun_2012}, i.e. \(R_n = (\sqrt{2})^nR_0\), where \(R_0\) is the smallest scale at which to expect to find structures. We comment on \(R_0\) and the discretization of \( f(\vec{x}) \) below while \(N\) is chosen such that \(R_N\) does not exceed \(4 \ h^{-1}\)Mpc. At higher redshift of \(z>1\), smaller values for \(R_N\) would suffice.
+4. Computing the environmental signature over a range of smoothing scales. We repeat steps 1-3 over a range of smoothing scales $$(R_0, R_1, ..., R_N)$$. 
+   While NEXUS+ is a multi-scale approach, the hierarchy of smoothing scales is a user input. In view of computational feasibility, 
+   we opt for relative $$\sqrt{2}$$-spacings following [Cautun et al. (2012)](https://academic.oup.com/mnras/article/429/2/1286/1038906)), 
+   i.e. $$R_n = (sqrt{2})^nR_0$$, where $$R_0$$ is the smallest scale at which to expect to find structures. We comment 
+   on $$R_0$$ and the discretization of $$f(\vec{x})$$ below while $$N$$ is chosen such that $$R_N$$ does not exceed $$4 \ h^{-1}$$Mpc. 
+   At higher redshift of $$z>1$$, smaller values for $$R_N$$ would suffice.
 
 5. Scale-space stacking. The scale-independent map is constructed by taking the maximum signature over all scales
 
-   \[
-   \mathcal{S}(\vec{x}) = \max_{\text{levels } n} \mathcal{S}_{R_n}(\vec{x}),
-   \]
+   $$\mathcal{S}(\vec{x}) = \max_{\text{levels } n} \mathcal{S}_{R_n}(\vec{x}),$$
 
-   which characterizes the degree to which each voxel \(\vec{x}\) is part of a cluster, filament or wall.
+   which characterizes the degree to which each voxel $$\vec{x}$$ is part of a cluster, filament or wall.
 
-6. Computing the detection threshold. As the last step, we impose physical criteria to determine the detection threshold corresponding to valid environments. For nodes, the threshold signature \(\mathcal{S}_{c,\mathrm{cut}}\) is found by requiring that at least half of the connected regions are virialised according to Eq. \eqref{e_bryan}. This is in contrast to the original papers \citep{Cautun_2012, Cautun_2014}, where the authors use a virialisation overdensity of \(\Delta_{\text{vir}} = 370\). To identify connected regions for each node signature floor \(\mathcal{S}_{c}\), we label them based on a \(1\)-connectivity neighbourhood condition. The value \(1\) refers to the maximum number of orthogonal hops to consider a voxel a neighbour.
+6. Computing the detection threshold. As the last step, we impose physical criteria to determine the detection threshold corresponding to 
+  valid environments. For nodes, the threshold signature $$\mathcal{S}_{c,\mathrm{cut}}$$ is found by requiring that at least half of the 
+  connected regions are virialised according to Eq. {eq}`e_bryan`. This is in contrast to the original papers 
+  [Cautun et al. (2012)](https://academic.oup.com/mnras/article/429/2/1286/1038906) and
+  [Cautun et al. (2014)](https://academic.oup.com/mnras/article/441/4/2923/1213214), where the authors use a virialisation overdensity 
+  of $$\Delta_{\text{vir}} = 370$$. To identify connected regions for each node signature floor $$\mathcal{S}_{c}$$, we label them based on a 
+  $$1$$-connectivity neighbourhood condition. The value $$1$$ refers to the maximum number of orthogonal hops to consider a voxel a neighbour.
 
-   Voxels that do not pass this threshold are assigned a node signature of zero. Voxels that do pass the threshold constitute genuine node structures, and after setting the real-space density values at their location to the mean density of the Universe \cite[rather than zero,][]{Cautun_2012}, the slightly modified input field \(\tilde{\delta}(\mathbf{x})\) becomes the basis for the calculation of filament signatures \(\mathcal{S}_{f,R_n}(\mathbf{x})\) in step 3. The procedure is similar to the one for nodes, except that for filaments, the threshold signature is determined by calculating the mass \(M_f(\mathcal{S}_f)\) in filaments with a signature value larger or equal to \(\mathcal{S}_f\) and maximizing the mass change with signature:
+   Voxels that do not pass this threshold are assigned a node signature of zero. Voxels that do pass the threshold constitute genuine node 
+   structures, and after setting the real-space density values at their location to the mean density of the Universe (rather than zero as in 
+   [Cautun et al. (2012)](https://academic.oup.com/mnras/article/429/2/1286/1038906)), the slightly modified input field 
+   $$\tilde{\delta}(\mathbf{x})$$ becomes the basis for the calculation of filament signatures $$\mathcal{S}_{f,R_n}(\mathbf{x})$$ in step 3. 
+   The procedure is similar to the one for nodes, except that for filaments, the threshold signature is determined by calculating the 
+   mass $$M_f(\mathcal{S}_f)$$ in filaments with a signature value larger or equal to $$\mathcal{S}_f$$ and maximizing the mass change with signature:
 
-   \[
-   \argmax_{\mathcal{S}_f} \ \bigg\lvert \frac{\mathrm{d}M_f^2}{\mathrm{d}\log \mathcal{S}_f}\bigg\rvert = \mathcal{S}_{f,\mathrm{cut}}.
-   \]
+   $$\argmax_{\mathcal{S}_f} \ \bigg\lvert \frac{\mathrm{d}M_f^2}{\mathrm{d}\log \mathcal{S}_f}\bigg\rvert = \mathcal{S}_{f,\mathrm{cut}}$$.
 
    After identifying filaments and setting the
