@@ -38,13 +38,13 @@ in order to observationally constrain the burstiness of low-mass and high redshi
 The discoveries by [Looser et al. (2023)](https://ui.adsabs.harvard.edu/abs/2023arXiv230214155L) and 
 [Strait et al. (2023)](https://ui.adsabs.harvard.edu/abs/2023arXiv230311349S) motivated us to investigate the properties of high-redshift quiescent 
 galaxies with low stellar masses ($$M_{\star} = 10^7-10^9 \ M_{\odot}$$) using theoretical models. Specifically, we use four galaxy formation models: the periodic box simulation 
-$IllustrisTNG$ [(Nelson et al. 2019)](http://dx.doi.org/10.1186/s40668-019-0028-x), the zoom-in simulation $VELA$ 
+IllustrisTNG [(Nelson et al. 2019)](http://dx.doi.org/10.1186/s40668-019-0028-x), the zoom-in simulation VELA
 [(Zolotov et al. 2015)](https://ui.adsabs.harvard.edu/abs/2015MNRAS.450.2327Z) and an empirical halo model (EHM, 
 [Tacchella et al. (2018)](http://dx.doi.org/10.3847/1538-4357/aae8e0)). These four models allow us to study this galaxy population from complementary 
 viewpoints since they provide access to different dynamic ranges and timescales. The combination of those four models allows us to cross-check the consistency 
 of predictions on the theory side. All four models produce quiescent galaxies with $$M_{\star} = 10^7-10^9 \ M_{\odot}$$ at $$z>4$$. However, these galaxies 
 are only temporary quiescent and rejuvenate back onto the MS. In order to differentiate this process from star formation quenching at higher stellar masses 
-($$M_{\star} > 10^{10} \ M_{\odot}$$), we refer to this temporary quenching as \textit{mini-quenching}. We show in this work that the main causes for 
+($$M_{\star} > 10^{10} \ M_{\odot}$$), we refer to this temporary quenching as *mini-quenching*. We show in this work that the main causes for 
 mini-quenching are stellar feedback, lack of gas accretion onto galaxies, mergers and tidal interactions. The abundance of these mini-quenched galaxies 
 (MQGs) is in good agreement between the four galaxy formation models. However, we find that the level of burstiness inferred from the four models on short 
 timescales $$\sim 40$$ Myr is lower than what is observed.
@@ -67,10 +67,10 @@ $$\text{sSFR}_{\text{MS}}(M_{\star},z)=s_{\text{b}}\left(\frac{M_{\star}}{10^{10
 
 For VELA, the best-fit parameters are $$s_{\text{b}} = 0.046$$, $$\beta = 0.14$$ and $$\mu = 5/2$$ 
 [(Tacchella et al. 2016)](https://ui.adsabs.harvard.edu/abs/2016MNRAS.457.2790T) while for FirstLight10+20 we find $$s_{\text{b}} = 0.064$$, $$\beta = 0.05$$ 
-and $$\mu = 2.45$$}. Across the mass range $$M_{\star} = 10^7-10^{10} \ M_{\odot}$$, the MS ridges are only consistent to within $$\sim 30$$% 
+and $$\mu = 2.45$$. Across the mass range $$M_{\star} = 10^7-10^{10} \ M_{\odot}$$, the MS ridges are only consistent to within $$\sim 30$$% 
 between the four galaxy formation models at any given redshift, see Fig. 1. Compared to observations of the star-forming MS as compiled 
 by [Popesso et al. (2023)](https://ui.adsabs.harvard.edu/abs/2023MNRAS.519.1526P), while TNG100+50 and FirstLight10+20 are in good agreement therewith, 
-EHM and VELA typically have smaller normalizations. This deviation is evident} for VELA galaxies whose stellar-to-virial mass ratios are higher than deduced 
+EHM and VELA typically have smaller normalizations. This deviation is evident for VELA galaxies whose stellar-to-virial mass ratios are higher than deduced 
 from observations [Ceverino et al. (2014)](https://ui.adsabs.harvard.edu/abs/2014MNRAS.442.1545C).
 
 Quiescent (star-forming) galaxies are those whose SFR value falls below (above) a certain relative distance from the median SFR at the 
@@ -79,7 +79,7 @@ sSFR$$< 10^{-11} \ \text{yr}^{-1}$$ [(Merlin et al. 2019)](https://ui.adsabs.har
 a threshold such as $$2\times \sigma_{\text{MS}} \sim 0.6$$ dex [(Tacchella et al. 2016)](https://ui.adsabs.harvard.edu/abs/2016MNRAS.457.2790T) from the MS. 
 However, here we choose a selection criterion of $$0.75$$ dex from the MS at all redshifts unless explicitly noted. We choose stellar mass bins of width $$0.25$$ dex.
 
-| <img src="/assets/images/quenching/MS4Models_z45678-1.png" width="500" height="350"> |
+| <img src="/assets/images/quenching/MS4Models_z45678-1.png" width="700" height="350"> |
 |:--:| 
 | *Fig. 1: The star-forming MS in the four galaxy formation models investigated in this work across redshifts $$z=4-8$$: the combined simulation study TNG100+50 (first panel), EHM (second panel), FirstLight10+20 (third panel) and VELA (fourth panel). SFRs are averaged over $$10$$ Myr. A compilation of observational studies by [Popesso et al. (2023)](https://ui.adsabs.harvard.edu/abs/2023MNRAS.519.1526P) is given in the form of a common parametrization (dashed curves) below $$z\leq 6$$ for $$M_{\star} \geq 10^{8.5} \ M_{\odot}$$. The MS ridges in the four models are consistent to within $$\sim 30$$\%, with TNG100+50 and FirstLight10+20 predictions closest to observational constraints.* |
 
@@ -114,7 +114,7 @@ to [(Davies et al. 2019)](https://ui.adsabs.harvard.edu/abs/2019MNRAS.483.1881D)
 vertex parabolic U-shape decreasing with stellar mass from $$\log (M_{\star}/M_{\odot}) \sim 8-10$$ and then incrseasing 
 at $$\log (M_{\star}/M_{\odot}) \sim 10-11.5$$. Note though that few studies go above $$z\approx 5$$.
 
-| <img src="/assets/images/quenching/DMS-1.png" width="500" height="350"> |
+| <img src="/assets/images/quenching/DMS-1.png" width="700" height="350"> |
 |:--:| 
 | *Fig. 2: Galaxies about the star-forming MS in a combined simulation study of TNG100+50 (first panel, shown for $$z=7$$), EHM (second panel, shown for $$z=7$$), FirstLight10+20 (third panel, shown for $$z=7$$) and VELA (fourth panel, shown for $$z=5-10$$). Quiescent galaxies are highlighted with blue circles and lie below the selection threshold of $$0.75$$ dex below the MS, shown in dashed black. For TNG100+50, error estimates from bootstrapping over masses of newly formed stellar particles are added to each quiescent galaxy. Galaxies with $$\text{SFR}=0$$ are formally assigned a MS deviation of $$\Delta_{\mathrm{MS}}=-\infty$$. The colorbar indicates the comoving number density of galaxies. The total MS scatter averaged across $$M_{\star} = 10^7-10^9 \ M_{\odot}$$ is indicated in the bottom right of the panels. VELA: Two galaxies with bursty SFHs (V5 and V10) and one galaxy with a more stable SFH (V32) are shown in different colours. SFRs are averaged over $$10$$ Myr, corresponding to the distance between two dots in the SFHs. Star symbols indicate the first star formation event ($$z=10$$ for V5 and V32 and $$z=8$$ for V10). The mini-quenching event of V5 (cf. Fig. 4) is highlighted with a triangle symbol. The abundance of MQGs agrees across the models, with an overall MQG fraction of $$f_{\text{MQG}} = 0.5-1.0$$% at $$z=7$$.* |
 
@@ -140,7 +140,7 @@ to FirstLight being able to resolve intense SF bursts on time-scales smaller tha
 SFHs of MQGs in TNG at high redshift trace out a kinky, V-shaped pattern, hinting at bursty star formation (especially) 
 around the mini-quenching event ($$\pm 20$$ Myr). However, since SFHs are poorly resolved, we instead investigate mini-quenching 
 timescales in FirstLight and VELA. For a total of $$20$$ mini-quenching events in the redshift range $$z=4-8$$, we find a 
-median and $$16 / 84$$ percentile of $$\tau_{\mathrm{MQ}} = 16.5^{+23.3}_{-7.7}$$ Myr for \VELA. For comparison, when imposing a 
+median and $$16 / 84$$ percentile of $$\tau_{\mathrm{MQ}} = 16.5^{+23.3}_{-7.7}$$ Myr for VELA. For comparison, when imposing a 
 selection threshold of $$0.6 \ \text{dex} \sim 2\times \sigma_{\text{MS}}$$ 
 [(Speagle et al. 2014)](http://dx.doi.org/10.1088/0067-0049/214/2/15)), we find $$\tau_{\mathrm{MQ}} = 21.5^{+34.4}_{-18.2}$$ Myr. 
 In these distributions, VELA galaxy V28 constitutes an outlier which stays quiescent for $$\sim 220$$ Myr in the redshift 
@@ -157,22 +157,23 @@ timescale $$\sim 0.4 \ t_{\text{H}}$$ about the ridge of the MS, indicating that
 around the mini-quenching event (with a more steady evolution closer to the MS). In the framework of correlated stochastic processes 
 [(Iyer et al. 2022)](https://ui.adsabs.harvard.edu/abs/2022arXiv220805938I), this might suggest different amounts of power on different temporal scales.
 
-| <img src="/assets/images/quenching/MSvszTrajMQG_FL-1.png" width="400" height="350"> |
+| <img src="/assets/images/quenching/MSvszTrajMQG_FL-1.png" width="500" height="350"> |
 |:--:| 
-| *Fig. 3: Bursty SFHs of FirstLight10+20 galaxies around $$12$$ selected mini-quenching events in the redshift range $$z=4-8$$. Each trajectory shows the deviation from the MS from $$100$$ Myr before until $$100$$ Myr after the mini-quenching event. One galaxy undergoes two mini-quenching events separated by $$\sim 30$$ Myr. The selection threshold of $$0.75$$ dex below the MS is shown in dashed black. Mini-quenching timescales $$\tau_{\text{MQ}}$$ in Table \ref{t_tau_mq} are obtained by summing up the time spent below this threshold. We color-code trajectories by the value of $$\tau_{\text{MQ}}$$: the higher $$\tau_{\text{MQ}}$$, the darker the blue shade.* |
+| *Fig. 3: Bursty SFHs of FirstLight10+20 galaxies around $$12$$ selected mini-quenching events in the redshift range $$z=4-8$$. Each trajectory shows the deviation from the MS from $$100$$ Myr before until $$100$$ Myr after the mini-quenching event. One galaxy undergoes two mini-quenching events separated by $$\sim 30$$ Myr. The selection threshold of $$0.75$$ dex below the MS is shown in dashed black. Mini-quenching timescales $$\tau_{\text{MQ}}$$ are obtained by summing up the time spent below this threshold. We color-code trajectories by the value of $$\tau_{\text{MQ}}$$: the higher $$\tau_{\text{MQ}}$$, the darker the blue shade.* |
 
 The mini-quenching timescale $$\tau_{\mathrm{MQ}} \sim 20-40$$ Myr is several times ($$\sim 1/6$$) shorter than the overall free-fall 
 time $$t_{\mathrm{ff}} = (3\pi / (32G\rho))^{1/2} \sim 240$$ Myr of a halo of mass $$M_{\text{h}} = 6 \times 10^9\ M_{\odot}$$, hosting a 
-galaxy such as V5 of mass $$M_{\star} = 2.1 \times 10^7 \ M_{\odot}$$ (see Sec. \ref{s_sed_jades}) based on the observed 
-stellar-to-halo-mass relation \citep{Girelli_2020}. However, we argue that $$\tau_{\mathrm{MQ}}$$ is close to the local free-fall 
-timescale $$t_{\mathrm{ff,loc}}$$ of the \textit{inner halo} where galaxies typically reside. In this picture, after the expulsion of gas in the wake 
+galaxy such as V5 of mass $$M_{\star} = 2.1 \times 10^7 \ M_{\odot}$$ based on the observed 
+stellar-to-halo-mass relation [(Girelli et al. 2020)](https://ui.adsabs.harvard.edu/abs/2020A&A...634A.135G). However, we argue 
+that $$\tau_{\mathrm{MQ}}$$ is close to the local free-fall timescale $$t_{\mathrm{ff,loc}}$$ of the *inner halo* 
+where galaxies typically reside. In this picture, after the expulsion of gas in the wake 
 of stellar feedback the galaxy finds itself in a state of mini-quenching until gas gets reaccreted/falls onto the galaxy. The mini-quenching timescale 
 is influenced by the mass distribution of the halo, the density and temperature of the gas, and feedback effects such as radiative 
 winds [(Gelli et al. 2023)](https://ui.adsabs.harvard.edu/abs/2023arXiv230313574G). At high densities and low metallicities, $$t_{\mathrm{ff,loc}}$$ 
-can be shorter than the stellar feedback timescales [(Dekel et al. 2023)](https://ui.adsabs.harvard.edu/abs/2023arXiv230304827D)), in 
+can be shorter than the stellar feedback timescales [(Dekel et al. 2023)](https://ui.adsabs.harvard.edu/abs/2023arXiv230304827D), in 
 which case $$\tau_{\mathrm{MQ}}$$ will be the closest to $$t_{\mathrm{ff,loc}}$$.
 
-## Mock SEDs Compared to observations
+## Mock SEDs Compared to Observations
 
 To generate mock spectral energy distributions (SEDs) of simulated galaxies, we treat each stellar particle in the respective simulation as a simple 
 stellar population (SSP) using a stellar population synthesis method. Here we opt for the Flexible Stellar Population Synthesis (FSPS) 
@@ -195,7 +196,7 @@ To bridge the gap with observations, we search for the VELA mini-quenching event
 ($$z=7.3$$ and $$M_{\star} = 5 \times 10^8 \ M_{\odot}$$). VELA galaxies at $$z\approx 7$$ span the mass 
 range $$M_{\star} \sim 5.3 \times 10^6 -7.4 \times 10^8 \ M_{\odot}$$, yet the few galaxies 
 with $$M_{\star} \gtrsim 10^8 \ M_{\odot}$$ are far from undergoing mini-quenching. We thus focus on one galaxy 
-(labeled V5 and highlighted in Fig. 2) \normalfont and its mini-quenching event at $$z=6.7$$ and $$M_{\star} = 2.1 \times 10^7 \ M_{\odot}$$ as the 
+(labeled V5 and highlighted in Fig. 2) and its mini-quenching event at $$z=6.7$$ and $$M_{\star} = 2.1 \times 10^7 \ M_{\odot}$$ as the 
 reference galaxy to compare to JADES-GS-z7-01-QU.
 
 The account for differences in redshift and stellar mass between V5 and JADES-GS-z7-01-QU, we apply flux correction 
@@ -212,13 +213,13 @@ does not modify SEDs by more than $$\sim 0.1$$ dex, in accordance with [Gelli et
 (at most $$\sim 0.2$$ dex for a reduction of $$Z_{\star}$$ by $$2$$ orders of magnitude 
 from $$Z_{\star}\sim Z_{\odot}$$ to $$Z_{\star}\sim 0.01 \ Z_{\odot}$$), hence we do not explore this path further.
 
-### Ages of Stellar Populations}
+### Ages of Stellar Populations
 The SFH of V5 (see Fig. 4, left panel) reveals that the simulated galaxy underwent an extended burst of star 
 formation at $$z\approx 7.3$$, followed by a gradual suppression of its SFR. At the epoch of observation, $$z=6.7$$, the average age 
 of stellar populations is thus $$\sim 230$$ Myr. While the shape of the SED (see Fig. 4, right panel) agrees moderately well with 
 JADES-GS-z7-01-QU photometry, the overall normalization does not. 
 
-| <img src="/assets/images/quenching/SFRVsHubbleAllSnaps_apture2.00Rhalf-1.png" width="350" height="300"> <img src="/assets/images/quenching/GxLogFluxSpectra0_z6.72-1.png" width="350" height="300"> |
+| <img src="/assets/images/quenching/SFRVsHubbleAllSnaps_apture2.00Rhalf-1.png" width="350" height="270"> <img src="/assets/images/quenching/GxLogFluxSpectra0_z6.72-1.png" width="350" height="270"> |
 |:--:--:| 
 | *Fig. 4: Original and modified SFH of the VELA galaxy V5 at $$z>z_{\text{MQ}}=6.6$$ (left panel) and corresponding SEDs compared to JADES-GS-z7-01-QU (right panel). Shown are: (a) Original SFH and dust attenuated SED of V5 (blue), (b) Idealised top-hat SFH model of width $$60$$ Myr (orange), with corresponding dust attenuated SED (orange), (c) JADES-GS-z7-01-QU photometry (green dots) for filters F150W, F200W, F277W, F335M and F444W. Horizontal bars on the photometry indicate the wavelength range probed by each passband. All SEDs are flux-corrected to account for redshift and stellar-mass offsets between V5 and JADES-GS-z7-01-QU. The orange shade on the right panel is obtained by varying the width of the top-hat from $$10$$ to $$90$$ Myr. The level of burstiness inferred from VELA on short timescales $$\sim 40$$ Myr is lower than what is observed.* |
 
@@ -228,7 +229,7 @@ We thus evaluate the SED of an idealised top-hat SFH. We adopt $$\Delta t_{\text
 between $$10$$ Myr and $$90$$ Myr. The corresponding top-hat heights are $$\text{SFR}=2.02 \ M_{\odot}\text{yr}^{-1}$$ 
 and $$\text{SFR}=0.22 \ M_{\odot}\text{yr}^{-1}$$, respectively, and the resulting SEDs are shown as the shaded area in 
 Fig. 4 (right panel). The top-hat that gives rise to an SED closest to JADES-GS-z7-01-QU photometry is of 
-width $$60$$ Myr (cf. Fig. \ref{f_seds}, left panel). The fluxes now reach $$\sim 5$$ times higher in the UV and $$\sim 2$$ times higher in 
+width $$60$$ Myr (cf. Fig. 4, left panel). The fluxes now reach $$\sim 5$$ times higher in the UV and $$\sim 2$$ times higher in 
 the red part of the spectrum (observed frame), in good agreement with JADES-GS-z7-01-QU. Since the mock SED flux for wavelengths around the 
 red filter F444W is too low compared to JADES-GS-z7-01-QU photometry, the agreement found for the SED shape is only modest.
 
