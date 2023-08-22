@@ -42,7 +42,7 @@ times [(Bullock et al 2001)](https://ui.adsabs.harvard.edu/abs/2001MNRAS.321..55
 assembly corresponds to higher characteristic densities, reflecting the larger background density at that epoch. The $$c-M_{200}$$ relation
 is shown below.
 
-| <img src="/assets/images/cVersusM.png" width="400" height="750"> |
+| <img src="/assets/images/halos/cVersusM.png" width="400" height="750"> |
 |:--:| 
 | *Fig. 1: Concentration-mass relation $$c(M,z)$$ in different cosmologies, for $$N$$-body, $$1024^3$$ resolution, $$L_{\text{box}} = 40$$ cMpc$$/h$$ runs at redshift $$z=4.38$$. We compare the CDM halos (blue) with cFDM halos for particle mass $$m=2\times 10^{-21}$$ eV (top), $$m=7\times 10^{-22}$$ eV (middle) and $$m=10^{-22}$$ eV (bottom). Square markers indicate median concentrations obtained from Einasto best-fits while the color of each hexbin is proportional to the number of halos whose Einasto concentration falls therein. "LB 16, CDM" and "LB 16, cFDM" show an analytical model prediction from [Ludlow et al 2016](https://arxiv.org/abs/1601.02624) for model parameters $$f=0.02$$ and $$C=650$$.* |
 
@@ -91,7 +91,7 @@ At the same time, intrinsic alignments of galaxies provide complementary cosmolo
 can be disentangled from the lensing signal by means of either galaxy color [(Yao et al 2020)](https://ui.adsabs.harvard.edu/abs/2020ApJ...904..135Y/abstract)
 or polarisation data [(Brown et al 2011)](https://academic.oup.com/mnras/article/410/3/2057/964478).
 
-| <img src="/assets/images/ShapePos_032.png" width="400" height="500"> |
+| <img src="/assets/images/halos/ShapePos_032.png" width="400" height="500"> |
 |:--:| 
 | *Fig. 2: High-$$z$$ shape-position alignment statistics in different cosmologies, for $$N$$-body, $$1024^3$$ resolution, $$L_{\text{box}} = 40$$ cMpc$$/h$$ runs, at redshift $$z=4.38$$. We compare CDM halos (blue) to cFDM halos with particle mass $$m=2\times 10^{-21}$$ eV (magenta), $$m=7\times 10^{-22}$$ eV (dark-red) and $$m=10^{-22}$$ eV (orange-red). The results are for intermediate-mass halos in the range $$10^{10}-10^{11} M_{\odot}/h$$. Top: Shape-position alignments vs. 3D pair separation, out to $$L_{\text{box}}/2=20$$ cMpc$$/h$$ to avoid geometric bias induced by the simulation box. Shaded regions enclose the $$25$$th-$$75$$th percentiles. Bottom: PDF of shape-position alignments, with results of the Kolmogorov-Smirnov test of independence between the CDM and cFDM samples.* |
 
@@ -147,7 +147,7 @@ scale of $$\lambda =$$ 1 cMpc/$$h$$. This scale corresponds to halos of mass $$M
 to obtain the tidal shear at the halo positions, we perform an inverse CIC interpolation, effectively increasing the smoothing scale $$\lambda$$ 
 by about one grid cell.
 
-| ![IA](/assets/images/Dfitting_032.png) | 
+| ![IA](/assets/images/halos/Dfitting_032.png) | 
 |:--:| 
 | *Fig. 3: Intrinsic alignment strengths in different cosmologies. We show the correlation of the two components of the halo ellipticity $$\epsilon_{+}$$, $$\epsilon_{\times}$$ with the respective tidal field components $$T_{+}$$, $$T_{\times}$$, for $$N$$-body, $$1024^3$$ resolution, $$L_{\text{box}} = 40$$ cMpc$$/h$$ runs at redshift $$z=4.38$$. Each dot represents one halo colour-coded by its triaxiality $$T$$. The blue dashed lines correspond to a linear fit to the binned data points, the shaded bands displaying the standard error on the mean (SEM) in each bin. The blue (CDM) and red solid lines (cFDM) depict the fits to the anisotropy-corrected data. All values are in units of $$c^2(\mathrm{cMpc}/h)^2$$.* |
 
