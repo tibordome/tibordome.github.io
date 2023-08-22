@@ -42,7 +42,7 @@ Background Radiation (POLARBEAR) experiment.
 Experimental observations provide increasingly stringent bounds on the admissible mass ranges of FDM, see [Dome et al 2022](https://academic.oup.com/mnras/article/519/3/4183/6961063). 
 In that work, we provide a non-exhaustive list of recent constraints ordered by publication date, which we also show below:
 
-| ![Constraints](/assets/images/axions/MassConstraints.png) | 
+| ![Constraints](/assets/images/axions/MassConstraints-1.png) | 
 |:--:| 
 | *Fig. 1: Recent particle mass constraints for warm dark matter (WDM) / FDM from astrophysical observations in the FDM window of $$10^{-26}$$ eV $$<m<10^{-16}$$ eV. The red shading indicates a disfavored parameter space, though not necessarily a $$2\sigma$$-constraint. The orange shading indicates forecasts for future observatories. UFDs = ultra-faint dwarf galaxies; SMBHs = supermassive black holes.* |
 

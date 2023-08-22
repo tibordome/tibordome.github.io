@@ -7,6 +7,10 @@
 #
 layout: home
 title: Home
+description: Homepage
+tags:
+- Jekyll
+- GitHub Pages
 ---
 
 
