@@ -79,7 +79,7 @@ sSFR$$< 10^{-11} \ \text{yr}^{-1}$$ [(Merlin et al. 2019)](https://ui.adsabs.har
 a threshold such as $$2\times \sigma_{\text{MS}} \sim 0.6$$ dex [(Tacchella et al. 2016)](https://ui.adsabs.harvard.edu/abs/2016MNRAS.457.2790T) from the MS. 
 However, here we choose a selection criterion of $$0.75$$ dex from the MS at all redshifts unless explicitly noted. We choose stellar mass bins of width $$0.25$$ dex.
 
-| <img src="/assets/images/quenching/MS4Models_z45678-1.png" width="700" height="350"> |
+| <img src="/assets/images/quenching/MS4Models_z45678-1.png" width="750" height="350"> |
 |:--:| 
 | *Fig. 1: The star-forming MS in the four galaxy formation models investigated in this work across redshifts $$z=4-8$$: the combined simulation study TNG100+50 (first panel), EHM (second panel), FirstLight10+20 (third panel) and VELA (fourth panel). SFRs are averaged over $$10$$ Myr. A compilation of observational studies by [Popesso et al. (2023)](https://ui.adsabs.harvard.edu/abs/2023MNRAS.519.1526P) is given in the form of a common parametrization (dashed curves) below $$z\leq 6$$ for $$M_{\star} \geq 10^{8.5} \ M_{\odot}$$. The MS ridges in the four models are consistent to within $$\sim 30$$\%, with TNG100+50 and FirstLight10+20 predictions closest to observational constraints.* |
 
@@ -114,7 +114,7 @@ to [(Davies et al. 2019)](https://ui.adsabs.harvard.edu/abs/2019MNRAS.483.1881D)
 vertex parabolic U-shape decreasing with stellar mass from $$\log (M_{\star}/M_{\odot}) \sim 8-10$$ and then incrseasing 
 at $$\log (M_{\star}/M_{\odot}) \sim 10-11.5$$. Note though that few studies go above $$z\approx 5$$.
 
-| <img src="/assets/images/quenching/DMS-1.png" width="700" height="350"> |
+| <img src="/assets/images/quenching/DMS-1.png" width="750" height="350"> |
 |:--:| 
 | *Fig. 2: Galaxies about the star-forming MS in a combined simulation study of TNG100+50 (first panel, shown for $$z=7$$), EHM (second panel, shown for $$z=7$$), FirstLight10+20 (third panel, shown for $$z=7$$) and VELA (fourth panel, shown for $$z=5-10$$). Quiescent galaxies are highlighted with blue circles and lie below the selection threshold of $$0.75$$ dex below the MS, shown in dashed black. For TNG100+50, error estimates from bootstrapping over masses of newly formed stellar particles are added to each quiescent galaxy. Galaxies with $$\text{SFR}=0$$ are formally assigned a MS deviation of $$\Delta_{\mathrm{MS}}=-\infty$$. The colorbar indicates the comoving number density of galaxies. The total MS scatter averaged across $$M_{\star} = 10^7-10^9 \ M_{\odot}$$ is indicated in the bottom right of the panels. VELA: Two galaxies with bursty SFHs (V5 and V10) and one galaxy with a more stable SFH (V32) are shown in different colours. SFRs are averaged over $$10$$ Myr, corresponding to the distance between two dots in the SFHs. Star symbols indicate the first star formation event ($$z=10$$ for V5 and V32 and $$z=8$$ for V10). The mini-quenching event of V5 (cf. Fig. 4) is highlighted with a triangle symbol. The abundance of MQGs agrees across the models, with an overall MQG fraction of $$f_{\text{MQG}} = 0.5-1.0$$% at $$z=7$$.* |
 
@@ -206,6 +206,10 @@ and $$M_{\star, \text{V5}}/M_{\star, \text{GS-z7-01-QU}}$$, assuming mass-to-lig
 that the flux density of JADES-GS-z7-01-QU is about a factor of $$5$$ stronger than V5 (see Fig. 4, right panel). Can this discrepancy 
 be resolved by modifying metallicities and ages of the simple stellar populations entering the mock SED calculation?
 
+| <img src="/assets/images/quenching/SFRVsHubbleAllSnaps_apture2.00Rhalf-1.png" width="350" height="270"> <img src="/assets/images/quenching/GxLogFluxSpectra0_z6.72-1.png" width="350" height="270"> |
+|:--:--:| 
+| *Fig. 4: Original and modified SFH of the VELA galaxy V5 at $$z>z_{\text{MQ}}=6.6$$ (left panel) and corresponding SEDs compared to JADES-GS-z7-01-QU (right panel). Shown are: (a) Original SFH and dust attenuated SED of V5 (blue), (b) Idealised top-hat SFH model of width $$60$$ Myr (orange), with corresponding dust attenuated SED (orange), (c) JADES-GS-z7-01-QU photometry (green dots) for filters F150W, F200W, F277W, F335M and F444W. Horizontal bars on the photometry indicate the wavelength range probed by each passband. All SEDs are flux-corrected to account for redshift and stellar-mass offsets between V5 and JADES-GS-z7-01-QU. The orange shade on the right panel is obtained by varying the width of the top-hat from $$10$$ to $$90$$ Myr. The level of burstiness inferred from VELA on short timescales $$\sim 40$$ Myr is lower than what is observed.* |
+
 ### Stellar Metallicity
 Stellar populations in V5 are only moderately more metal-rich ($$Z_{\star}\sim 0.04 \ Z_{\odot}$$ on average) than deduced 
 for JADES-GS-z7-01-QU, $$Z_{\star}\sim 0.01 \ Z_{\odot}$$. Reducing $$Z_{\star}$$ artificially for some stellar populations 
@@ -218,10 +222,6 @@ The SFH of V5 (see Fig. 4, left panel) reveals that the simulated galaxy underwe
 formation at $$z\approx 7.3$$, followed by a gradual suppression of its SFR. At the epoch of observation, $$z=6.7$$, the average age 
 of stellar populations is thus $$\sim 230$$ Myr. While the shape of the SED (see Fig. 4, right panel) agrees moderately well with 
 JADES-GS-z7-01-QU photometry, the overall normalization does not. 
-
-| <img src="/assets/images/quenching/SFRVsHubbleAllSnaps_apture2.00Rhalf-1.png" width="350" height="270"> <img src="/assets/images/quenching/GxLogFluxSpectra0_z6.72-1.png" width="350" height="270"> |
-|:--:--:| 
-| *Fig. 4: Original and modified SFH of the VELA galaxy V5 at $$z>z_{\text{MQ}}=6.6$$ (left panel) and corresponding SEDs compared to JADES-GS-z7-01-QU (right panel). Shown are: (a) Original SFH and dust attenuated SED of V5 (blue), (b) Idealised top-hat SFH model of width $$60$$ Myr (orange), with corresponding dust attenuated SED (orange), (c) JADES-GS-z7-01-QU photometry (green dots) for filters F150W, F200W, F277W, F335M and F444W. Horizontal bars on the photometry indicate the wavelength range probed by each passband. All SEDs are flux-corrected to account for redshift and stellar-mass offsets between V5 and JADES-GS-z7-01-QU. The orange shade on the right panel is obtained by varying the width of the top-hat from $$10$$ to $$90$$ Myr. The level of burstiness inferred from VELA on short timescales $$\sim 40$$ Myr is lower than what is observed.* |
 
 Using BAGPIPES, [Looser et al. (2023)](https://ui.adsabs.harvard.edu/abs/2023arXiv230214155L) infer a top-hat-like SFH and the time elapsed 
 between mini-quenching and the epoch of observation inferred by four different full spectral fitting codes is $$\Delta t_{\text{quench}} = 10-40$$ Myr. 
