@@ -4,7 +4,7 @@ title: Cosmic Web
 katex: True
 toc: True
 toc_sticky: True
-permalink: /cosmic_web/
+permalink: /posts/cosmic_web/
 ---
 
 On scales of $$1-100$$ Mpc the matter distribution of the Universe forms a weblike pattern of voids separated by walls, 

@@ -2,7 +2,9 @@
 layout: single
 title: Quenching
 katex: True
-permalink: /quenching/
+permalink: /posts/quenching/
+toc: True
+toc_sticky: True
 ---
 
 Most galaxies follow a the tight relation between stellar mass and star formation rate (SFR)
