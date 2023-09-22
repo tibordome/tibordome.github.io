@@ -1,6 +1,6 @@
 ---
 layout: single
-permalink: /about/
+permalink: /cv/
 title: "CV & Pub's"
 author_profile: true
 comments: false
