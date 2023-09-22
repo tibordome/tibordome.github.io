@@ -1,7 +1,7 @@
 ---
 layout: single
 permalink: /cv/
-title: "CV"
+title: "CV & Pub's"
 author_profile: true
 comments: false
 ---
