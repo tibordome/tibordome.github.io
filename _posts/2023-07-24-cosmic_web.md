@@ -39,7 +39,7 @@ at high-$$z$$ are especially pronounced. These imprints are only observable via 
 predict the configuration and abundance of each morphological component in CDM and FDM.
 
 On this page we show results for the cosmic web dissection of numerical CDM and cFDM simulations into the four morphological components. For more details 
-about the internal properties of halos embedded in the densest component (i.e. nodes) in CDM and FDM see [this page](halos.md).
+about the internal properties of halos embedded in the densest component (i.e. nodes) in CDM and FDM see [this page](../halos).
 
 | <img src="/assets/images/cosmic_web/nexus_algo/CDMxProj_x0y0z1_033.png" width="250" height="250"> <img src="/assets/images/cosmic_web/nexus_algo/FDM_2E21xProj_x0y0z1_033.png" width="250" height="250"> |
 | <img src="/assets/images/cosmic_web/nexus_algo/FDM_7E22xProj_x0y0z1_033.png" width="250" height="250"> <img src="/assets/images/cosmic_web/nexus_algo/FDM_1E22xProj_x0y0z1_033.png" width="250" height="250"> |
@@ -197,7 +197,7 @@ in mass filling fractions of walls between CDM and the $$m=10^{-22}$$ eV model. 
 higher-dimensional structures, i.e. sheets, is a manifestation of the loss of small-scale power in the primordial 
 and also evolved DM distributions.
 
-| <img src="/assets/images/cosmic_web/results/MassFrac.png" width="350" height="550"> <img src="/assets/images/cosmic_web/results/VolFrac.png" width="350" height="550"> |
+| <img src="/assets/images/cosmic_web/results/MassFrac.png" width="350" height="650"> <img src="/assets/images/cosmic_web/results/VolFrac.png" width="350" height="650"> |
 |:--:--:| 
 | *Fig. 3: Evolution of the mass (left) and volume (right) filling fractions for the $$N$$-body CDM and cFDM runs with $$1024^3$$ resolution and $$L_{\text{box}} = 40\ h^{-1}$$Mpc. Each row represents a different NEXUS+ cosmic web environment. Cosmologies are differentiated by color as shown in the legend.* |
 
@@ -223,7 +223,7 @@ the PDF is segmented into morphological components.
 
 | <img src="/assets/images/cosmic_web/results/DensPDFs_033.png" width="400" height="750"> |
 |:--:| 
-| *Fig. 4: Log overdensity PDFs for the $$N$$-body CDM and cFDM runs with $$1024^3$$ resolution and $$L_{\text{box}} = 40\ h^{-1}$$Mpc at redshift $$z=3.9$$. Cosmologies are differentiated by color as shown in the legend. The first four rows represent different NEXUS+ cosmic web environments while the last row shows the overall log overdensity PDFs. The dashed green curve (fourth row) is the CDM best-fit result using the [Miralda-Escudé et al. (2000)][(http://dx.doi.org/10.1086/308330) fitting formula for the void log overdensity PDF while the dashed cyan curve (bottom row) is the CDM best fit among the family of reversed Weibull distributions, cf. [Repp & Szapudi (2018)](https://ui.adsabs.harvard.edu/abs/2018MNRAS.473.3598R).* |
+| *Fig. 4: Log overdensity PDFs for the $$N$$-body CDM and cFDM runs with $$1024^3$$ resolution and $$L_{\text{box}} = 40\ h^{-1}$$Mpc at redshift $$z=3.9$$. Cosmologies are differentiated by color as shown in the legend. The first four rows represent different NEXUS+ cosmic web environments while the last row shows the overall log overdensity PDFs. The dashed green curve (fourth row) is the CDM best-fit result using the [Miralda-Escudé et al. (2000)](http://dx.doi.org/10.1086/308330) fitting formula for the void log overdensity PDF while the dashed cyan curve (bottom row) is the CDM best fit among the family of reversed Weibull distributions, cf. [Repp & Szapudi (2018)](https://ui.adsabs.harvard.edu/abs/2018MNRAS.473.3598R).* |
 
 Let us again start the discussion with CDM. We find that various cosmic environments are characterised 
 by different values of the log overdensity field. Node regions have by far the highest PDF median at around
@@ -293,7 +293,7 @@ standard variance we adopt is
 $$\hat{\mathrm{var}}(\hat{\theta}_{\mathrm{jack}}) = \frac{1}{N}\frac{1}{N-1}\sum_{i=1}^{N}\left(\mathrm{PV}(\mathrm{x}_{(i)})-\overline{\mathrm{PV}}\right)^2.$$
 
 Here, $$\mathrm{x}_{(i)}$$ denotes the sample but with the $$i^{\mathrm{th}}$$ observation removed. 
-In our case, this translates to a subbox removal. Each $pseudo-value$, 
+In our case, this translates to a subbox removal. Each *pseudo-value*
 $$\mathrm{PV}(\mathrm{x}_{(i)})=n\hat{\theta}-(n-1)\hat{\theta}_{(i)}$$, can be viewed as an estimate 
 of $$\theta = S_3$$, and it is their variance that determines the jackknife standard error.
 
@@ -319,7 +319,7 @@ determine the third one, the dependence of $$S_3$$ can be written either way. Mo
 function of $$\sigma$$ (such as the lognormal distribution) thus cannot possibly account for the evolution 
 of the PDF with redshift.
 
-| <img src="/assets/images/cosmic_web/results/DensPDFsSkewnessS3Jackknife.png" width="400" height="250"> |
+| <img src="/assets/images/cosmic_web/results/DensPDFsSkewnessS3Jackknife.png" width="500" height="350"> |
 |:--:| 
 | *Fig. 5: Skewness $$S_3$$ of overdensity PDFs for the $$N$$-body CDM and cFDM runs with $$1024^3$$ resolution and $$L_{\text{box}} = 40\ h^{-1}$$Mpc across redshifts $$z\sim 1.0-5.6$$. Cosmologies are differentiated by color as shown in the legend. There is no conditioning on cosmic environment. Error estimates from jackknife resampling with $$4^3$$ subboxes are marked. The prediction $$S_3 = 34/7$$ by Peebles (1980), based on linear PT, for the Einstein-de Sitter (EdS) model (for which $$\Omega_m = 1.0$$) is shown for comparison.* |
 
@@ -333,7 +333,7 @@ The fact that $$S_3$$ is lower for power spectra with more small-scale fluctuati
 fewer small-scale fluctuations (cFDM) has already been theorised by 
 [Bernardeau et al. (2002)](http://dx.doi.org/https://doi.org/10.1016/S0370-1573(02)00135-7) using the 
 following argument: Dating back to earlier works such as
-[Bernardeau & Kaufman (1995)](https://ui.adsabs.harvard.edu/abs/1995ApJ...443..479B)), it has been noted 
+[Bernardeau & Kaufman (1995)](https://ui.adsabs.harvard.edu/abs/1995ApJ...443..479B), it has been noted 
 that the dependence of skewness with the shape of the power spectrum comes from a mapping between 
 Lagrangian space, in which the initial size of the perturbation is determined, and Eulerian space. 
 For a given filtering scale $$R$$, overdense regions with $$\delta > 0$$ come from the collapse of regions 
@@ -370,11 +370,11 @@ Halos in walls and voids (not shown) represent a substantial share of the halo p
 resolved masses below $$M_h \sim 2\times 10^{9} \ h^{-1} M_{\odot}$$. In particular, since this behavior is 
 exhibited regardless of cosmology it implies that very few luminous galaxies and quasars are and will be 
 observed in cosmic sheets with current and upcoming galaxy/QSO redshift surveys such as SDSS SEQUELS 
-[(Myers et al. 2015)](https://ui.adsabs.harvard.edu/abs/2015ApJS..221...27M)), the DESI Bright Galaxy Survey (BGS)
-and JWST Advanced Deep Extragalactic Survey (JADES).\par
+[(Myers et al. 2015)](https://ui.adsabs.harvard.edu/abs/2015ApJS..221...27M), the DESI Bright Galaxy Survey (BGS)
+and JWST Advanced Deep Extragalactic Survey (JADES).
 
 In analogy to WDM [(Schneider et al. 2012)](http://dx.doi.org/10.1111/j.1365-2966.2012.21252.x) and bona-fide FDM 
-HMF analyses [(May & Springel 2022)](https://ui.adsabs.harvard.edu/abs/2022arXiv220914886M)), we confirm that 
+HMF analyses [(May & Springel 2022)](https://ui.adsabs.harvard.edu/abs/2022arXiv220914886M), we confirm that 
 cFDM cosmologies have fewer small-mass halos compared to CDM but here we quantify the environment-conditioned 
 cHMFs. All node-, filament- and wall-conditioned cHMFs exhibit a strong suppression in cFDM cosmologies, but 
 for some environments this occurs well above the half-mode mass $$M_{1/2}$$ 
