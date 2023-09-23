@@ -38,7 +38,7 @@ repository               : "tibordome"
 teaser                   : "/assets/images/CDMxProjRho_018.png"
 logo                     : "/assets/images/ioa.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
-breadcrumbs              : true #, false (default)
+breadcrumbs              : false #, false (default)
 words_per_minute         : 200
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
