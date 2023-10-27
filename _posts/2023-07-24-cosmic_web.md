@@ -38,8 +38,9 @@ effective small-scale cutoff of the primordial density fluctuations, i.e. affect
 at high-$$z$$ are especially pronounced. These imprints are only observable via tracer fields, but in simulations we can 
 predict the configuration and abundance of each morphological component in CDM and FDM.
 
-On this page we show results for the cosmic web dissection of numerical CDM and cFDM simulations into the four morphological components. For more details 
-about the internal properties of halos embedded in the densest component (i.e. nodes) in CDM and FDM see [this page](../halos).
+On this page we show results for the cosmic web dissection of numerical CDM and cFDM simulations into the four morphological components. This is work based on
+[Dome et al. (2022)](https://arxiv.org/abs/2301.09762). For more details about the internal properties of halos embedded in the densest component 
+(i.e. nodes) in CDM and FDM see [this page](../halos).
 
 | <img src="/assets/images/cosmic_web/nexus_algo/CDMxProj_x0y0z1_033.png" width="250" height="250"> <img src="/assets/images/cosmic_web/nexus_algo/FDM_2E21xProj_x0y0z1_033.png" width="250" height="250"> |
 | <img src="/assets/images/cosmic_web/nexus_algo/FDM_7E22xProj_x0y0z1_033.png" width="250" height="250"> <img src="/assets/images/cosmic_web/nexus_algo/FDM_1E22xProj_x0y0z1_033.png" width="250" height="250"> |
